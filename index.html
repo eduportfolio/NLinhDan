@@ -1,1330 +1,1368 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nguyen Linh Dan - Portfolio</title>
-  <link rel="stylesheet" href="NguyenLinhDan.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Inter:wght@300;500;700&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <!-- Toolbar -->
-  <div class="toolbar">
-    <a href="#intro" class="tool-item">
-      <i class="fa fa-home"></i>
-      <div class="tooltip">Home</div>
-    </a>
-
-    <a href="#hero" class="tool-item">
-      <i class="fa fa-user"></i>
-      <div class="tooltip">About Me</div>
-    </a>
-
-    <a href="#awards" class="tool-item">
-      <i class="fa fa-award"></i>
-      <div class="tooltip">Honors & Awards</div>
-    </a>
-
-    <a href="#research-product" class="tool-item">
-      <i class="fa fa-flask"></i>
-      <div class="tooltip">Research Experience</div>
-    </a>
-
-    <a href="#research-product" class="tool-item">
-      <i class="fa fa-box"></i>
-      <div class="tooltip">Personal Product</div>
-    </a>
-
-    <a href="#leadership" class="tool-item">
-      <i class="fa fa-users"></i>
-      <div class="tooltip">Leadership</div>
-    </a>
-
-    <a href="#social" class="tool-item">
-      <i class="fa fa-handshake"></i>
-      <div class="tooltip">Social Work & Activities</div>
-    </a>
-
-    <a href="#talents" class="tool-item">
-      <i class="fa fa-star"></i>
-      <div class="tooltip">Talents</div>
-    </a>
-
-    <a href="#contact" class="tool-item">
-      <i class="fa fa-envelope"></i>
-      <div class="tooltip">Contact</div>
-    </a>
-  </div>
-
-  <!-- Intro Section -->
-  <section id="intro" class="intro">
-    <div class="intro-content">
-      <h2 class="intro-sub">Hello, I'm</h2>
-      <h1 class="intro-name">Nguyen Linh Dan</h1>
-      <div class="intro-underline"></div>
-      <p class="intro-tagline">Portfolio</p>
-      <button class="scroll-btn" onclick="document.querySelector('#hero').scrollIntoView({behavior: 'smooth'})">
-        ↓ Explore
-      </button>
-    </div>
-  </section>
-
-  <!-- Hero Section -->
-  <section id="hero" class="hero">
-    <div class="hero-container">
-      <!-- Bên trái: Thông tin -->
-      <div class="hero-left">
-        <h2> <span class="triangle"></span> About Me</h2>
-        <p>
-          I am Nguyen Linh Dan, a Grade 12 Mathematics student at Hanoi-Amsterdam High School for the Gifted,
-          where I've pursued academic excellence with a Grade 10 GPA of
-          <span class="highlight-score">9.3</span> and a Grade 11 GPA of
-          <span class="highlight-score">9.6</span>.
-          My education has nurtured a deep appreciation for analytical thinking, which I channel into my passion for
-          Finance.<br>
-          My journey extends beyond the classroom, blending data-driven curiosity with creative expression. Fascination
-          with geometry sharpened my visual thinking, and a lifelong passion for the arts shaped a distinctive artistic
-          perspective. My love for theater merges artistic sensibility with mathematical logic, enabling me to tell
-          stories, lead teams, and foster connection.<br>
-          Guided by a commitment to growth and impact, I strive to apply leadership and the logical mindset shaped by
-          mathematics to real-world challenges. Drawing on these strengths, I aspire to study finance as a stepping
-          stone to entrepreneurship, aiming to create ventures that balance logical rigor with meaningful contributions
-          to society.<br>
-          I have achieved an IELTS score of <span class="highlight-score">6.5</span>, reflecting my dedication to
-          building a strong academic foundation for future studies abroad.
-      </div>
-
-      <!-- Bên phải: Ảnh trong ô -->
-      <div class="hero-right">
-        <div class="image-box">
-          <img src="asset/profile_img.jpg" alt="Nguyen Linh Dan">
-        </div>
-        <div class="glass-label">Finance</div>
-      </div>
-    </div>
-    </div>
-    </div>
-  </section>
-
-  <!-- Honors & Awards Section -->
-  <section id="awards" class="awards">
-    <h2 class="award-title"><span class="triangle"></span>Honors & Awards</h2>
-
-    <ul class="award-timeline">
-      <!-- Award 2025 -->
-      <li class="award-item">
-        <span class="timeline-circle"></span>
-        <div class="award-date">2025</div>
-        <div class="award-card" data-images='["asset/wico.jpg","asset/Screenshot 2025-09-04 173153.png"]'>
-          <strong>Grand Award & Gold Award</strong> - World Invention Creativity Olympic 2025<br>
-          <div class="award-images"></div>
-        </div>
-      </li>
-
-      <li class="award-item">
-        <span class="timeline-circle"></span>
-        <div class="award-date">2025</div>
-        <div class="award-card" data-images='["asset/z6977781454117_df815a999d7e092f6b87ce393b45d9fd.jpg"]'>
-          <strong>Gold</strong> - “Advanced Innovation Global Competition 2025” Competition<br>
-          <em>Topic:</em> The Impact of Media Crises on Customer Loyalty<br>
-          <em>Task:</em> Conduct literature research and summarize crisis communication models
-          <div class="award-images"></div>
-        </div>
-      </li>
-
-      <!-- Award 2024 -->
-      <li class="award-item">
-        <span class="timeline-circle"></span>
-        <div class="award-date">2024</div>
-        <div class="award-card"
-          data-images='["asset/IPITEx_1.jpg","asset/IPITEx_2.jpg","asset/IPITEx_3.jpg","asset/IPITEx_4.jpg"]'>
-          <strong>Gold Medal & Special Award</strong> - IPITEx Innovation Competition (Thailand)
-          <div class="award-images"></div>
-        </div>
-      </li>
-
-      <li class="award-item">
-        <span class="timeline-circle"></span>
-        <div class="award-date">2024</div>
-        <div class="award-card" data-images='["asset/IKLC.jpg"]'>
-          <strong>Silver Medal</strong> - IKLC 2024 Junior Competition
-          <div class="award-images"></div>
-        </div>
-      </li>
-
-      <li class="award-item">
-        <span class="timeline-circle"></span>
-        <div class="award-date">2024</div>
-        <div class="award-card" data-images='["asset/IKSC.jpg"]'>
-          <strong>Gold Medal</strong> - IKSC 2024 Junior Competition
-          <div class="award-images"></div>
-        </div>
-      </li>
-
-      <li class="award-item">
-        <span class="timeline-circle"></span>
-        <div class="award-date" style="font-weight:600;">2024</div>
-
-        <div class="award-card" data-images='["z7026156779666_0cc05d45e1b82cf379b1a11eb725bbfd.jpg"]'
-          style="padding:12px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.06); background:#fff;">
-          <strong>SILVER MEDAL</strong> - “Indonesia International IoT Olympiad 2024” (Online Competition)<br>
-          <em>Project:</em> Revolutionizing Community Waste Management with Mobile Tech<br>
-          <em>Category / Note:</em> IoT / Online & Semarang, Indonesia (June 25-28, 2024)<br>
-          <div class="award-images" style="margin-top:8px;">
-            <!-- JS có thể đọc data-images và render thumbnail vào đây -->
-          </div>
-        </div>
-      </li>
-    </ul>
-  </section>
-
-  <!-- Research & Product Section -->
-  <section id="research-product" class="research-product">
-    <h2 class="research-product-title"><span class="triangle"></span>Research Experience</h2>
-
-    <!-- Research Card -->
-    <div class="info-card">
-      <div class="research-badge">Published Research</div>
-      <h3 class="info-title">
-        Applications of Artificial Intelligence (AI) in the Logistics Industry in Vietnam: Opportunities and Challenges
-      </h3>
-
-      <p class="info-sub">
-        <strong>Journal:</strong> <span><a
-            href="https://www.researchgate.net/publication/391833979_Applications_of_Artificial_Intelligence_AI_In_the_Logistics_Industry_in_Vietnam_Opportunities_and_Challenges"
-            target="_blank" class="journal-link">International Journal of Scientific Research and Management
-            (IJSRM)</a></span>
-      </p>
-
-      <p class="info-desc">
-        <strong>Abstract:</strong> The logistics industry has rapidly developed in Vietnam. Modern solutions in
-        logistics help users transport goods effectively. In recent years, artificial intelligence (AI) has been widely
-        applied in logistics to improve field performance. AI technology plays an important role in logistics, bringing
-        great potential and benefits to the industry. It improves operational efficiency, forecasts demand, manages
-        risks, enhances customer experience, and reduces costs.
-      </p>
-
-      <p class="info-desc">
-        This paper presents and analyzes AI applications used in the logistics industry in Vietnam. Moreover, it
-        analyzes the impacts of AI applications on the field in Vietnam.
-      </p>
-    </div>
-
-    <h2 class="research-product-title"><span class="triangle"></span>Personal Product</h2>
-
-    <!-- Product Card -->
-    <div class="info-card">
-      <div class="product-badge">Personal Project</div>
-      <h3 class="info-title">
-        Investment Simulation Website for New Investors
-      </h3>
-
-      <p class="info-desc">
-        A simulation platform designed for beginner investors to familiarize themselves with financial markets without
-        real money risk. The website provides a realistic experience through simulated stock trading, portfolio
-        tracking, and real-time or historical market data updates.
-      </p>
-
-      <!-- Image Gallery -->
-      <div class="simple-gallery">
-        <img src="Picture1.png" alt="Dashboard" class="gallery-product-img">
-        <img src="Picture2.png" alt="Portfolio" class="gallery-product-img">
-        <img src="Picture3.png" alt="Trading" class="gallery-product-img">
-      </div>
-
-      <p class="info-sub"><strong>Key Features:</strong></p>
-      <ul class="info-list">
-        <li>Paper trading with virtual accounts</li>
-        <li>Intuitive interface for beginners</li>
-        <li>Real-time market data updates</li>
-        <li>Transaction history & performance tracking</li>
-        <li>Investment guides & risk analysis</li>
-      </ul>
-
-      <p class="info-sub"><strong>Technologies:</strong></p>
-      <div class="tech-simple">
-        <span>HTML/CSS</span>
-        <span>JavaScript</span>
-        <span>React</span>
-        <span>Node.js</span>
-        <span>MongoDB</span>
-        <span>Financial APIs</span>
-      </div>
-
-      <p class="info-desc">
-        <strong>Goal:</strong> To help beginners approach investing safely through hands-on practice, gaining a deeper
-        understanding of market fluctuations, portfolio management, and making informed investment decisions.
-      </p>
-    </div>
-
-    <div class="info-card">
-      <div class="product-badge">Start-up</div>
-      <h3 class="info-title">
-        ONSTAGE Musical Theatre Program (11/2025)
-      </h3>
-
-      <ul class="info-list">
-        <li><strong>Role:</strong> General Director & Producer</li>
-        <li><strong>Team:</strong> 120 members (High school & University students)</li>
-        <li><strong>Budget:</strong> ≈20K USD (≈8K sponsorships + ≈12K internal fund)</li>
-        <li><strong>Revenue:</strong> ≈14K USD from ticket sales (>1,000 seats at Vietnam-Soviet Friendship Cultural
-          Palace)</li>
-        <li><strong>Profit:</strong> ≈2K USD (10%), with 20% donated to charity</li>
-        <li><strong>Media Coverage:</strong> Featured by 50+ outlets, including VTV1</li>
-      </ul>
-
-      <!-- Nút Proposal -->
-      <div class="proposal-section">
-        <a href="https://drive.google.com/drive/folders/1DHuVpokjK55A9lmSxGGSsANDjmi8V4aX?usp=drive_link" target="_blank" class="proposal-btn">
-          View Media Coverage
-        </a>
-        <a href="https://www.facebook.com/LifesSoDrama" target="_blank" class="proposal-btn">
-          Fanpage
-        </a>
-      </div>
-
-      <!-- Gallery ảnh ONSTAGE -->
-      <div class="onstage-gallery-paginated">
-        <div id="onstage-gallery-grid" class="gallery-grid">
-        </div>
-
-        <div class="pagination-controls" style="text-align: center; margin-top: 30px;">
-          <div class="pagination-controls" style="text-align: center; margin-top: 30px;">
-            <button id="prev-page-btn" class="cta-button">
-              &#9664; Previous
-            </button>
-            <span id="page-counter" style="font-size: 1.1rem; font-weight: 600; color: #764ba2;">Page 1 / 1</span>
-            <button id="next-page-btn" class="cta-button">
-              Next &#9654;
-            </button>
-          </div>
-        </div>
-      </div>
-      <p class="info-desc">
-        Set in Vietnam during the 1980s, the play explored themes of faith and core human values.
-        By combining traditional music, dance, and costumes, the production created a performance
-        that was both intimate and profound. The goal was not only to entertain but also to help
-        the audience experience the depth of Vietnam's cultural heritage.
-      </p>
-    </div>
-  </section>
-
-
-  <section id="leadership" class="leadership">
-    <h2 class="leadership-title"><span class="triangle"></span>Leadership</h2>
-
-    <div class="leadership-container">
-
-      <!-- FEATURED CARD: President -->
-      <div class="leadership-card featured-card">
-        <div class="featured-header">
-          <h3 class="featured-role">
-            <i class="fas fa-crown"></i>
-            President, Life's So Drama Club - Term 2024-2025
-          </h3>
-        </div>
-
-        <!-- Gallery with 4 visible images + navigation -->
-
-
-        <!-- Description -->
-        <div class="featured-description">
-          <p>
-            Led a <strong>70-member</strong> club with departments in Finance, PR, Media & Design, and more.
-            Directed productions that won a <strong>Special Award at God's Talent 2025</strong>,
-            while managing rehearsals, budgets, and fostering creativity across the team.
-          </p>
-          <a href="https://www.facebook.com/share/1AQNMDiJck/?mibextid=wwXIfr" target="_blank" class="card-link">Fanpage
-          </a>
-        </div>
-      </div>
-
-      <!-- GRID: Other Leadership Cards -->
-      <div class="leadership-grid">
-
-        <!-- Card 2: Main Actor -->
-        <div class="leadership-card">
-          <img src="asset/director.jpg" alt="Main Actor" class="leader-img">
-          <div class="leader-info">
-            <h3 class="leader-role">Main Actor - Onstage 2024</h3>
-            <p class="leader-desc">
-              Starred as the lead actor in <strong>"5000 Dặm"</strong> at Âu Cơ Art Center, a production inspired by
-              the tragedy of 39 Vietnamese migrants. Explored themes of <strong>family, aspiration, and
-                resilience</strong>, gaining
-              <strong>52 media features and national coverage on VTV1</strong>, and receiving strong audience acclaim.
-            </p>
-            <a href="https://www.facebook.com/share/p/19RgGim4H6/?mibextid=wwXIfr" target="_blank" class="card-link">
-              <i class="fas fa-link"></i> Link
-            </a>
-          </div>
-        </div>
-
-        <!-- Card 3: SOS -->
-        <div class="leadership-card">
-          <img src="asset/sos.jpg" alt="Vice Head Organizer" class="leader-img">
-          <div class="leader-info">
-            <h3 class="leader-role">Vice Head Organizer, SOS Children's Village Charity Project</h3>
-            <p class="leader-desc">
-              Co-led a fundraising initiative designing and selling <strong>Truth or Dare cards, UNO decks, and
-                calendars</strong> inspired by Cartoon Network and Disney.
-              Achieved strong community support, raising meaningful funds for <strong>SOS Children's Village</strong>
-              and fostering lasting connections.
-            </p>
-            <a href="https://www.facebook.com/share/178iwKPWTL/?mibextid=wwXIfr" target="_blank" class="card-link">
-              <i class="fas fa-link"></i> Link
-            </a>
-          </div>
-        </div>
-
-        <!-- Card 4: Cheer Leader -->
-        <div class="leadership-card">
-          <img src="asset/cheer_2.jpg" alt="Cheer Leader" class="leader-img">
-          <img src="asset/cheer_4.jpg" alt="Cheer Leader" class="leader-img">
-
-          <div class="leader-info">
-            <h3 class="leader-role">Cheer Leader, Cheer Ams Club</h3>
-            <p class="leader-desc">
-              Performed as a cheerleader at multiple school and external events, including camps and basketball matches.
-              Enhanced confidence, physical health, and teamwork while expanding networks through diverse experiences.
-            </p>
-          </div>
-        </div>
-
-        <!-- Card 5: Manager (Full Width) -->
-        <div class="leadership-card">
-          <img src="asset/football.jpg" alt="Manager" class="leader-img">
-          <div class="leader-info">
-            <h3 class="leader-role">Manager, HN Ams Football Club</h3>
-            <p class="leader-desc">
-              Organized team logistics from schedules to events, fostering unity and school pride.
-              Strengthened planning, organizational, and communication skills through active leadership.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section id="social" class="social">
-    <h2 class="social-title"><span class="triangle"></span>Social Work & Activities</h2>
-
-    <div class="social-container">
-      <!-- 1 -->
-      <div class="social-card">
-        <div class="social-header">
-          <div>
-            <h3 class="social-title-card">Community Service in Đồng Văn, Hà Giang & Hương Khê, Hà Tĩnh</h3>
-            <p class="social-desc">Visited and donated gifts, built a water tank for people in Đồng Văn, Hà Giang.<br>
-              Supported the “Loving Porridge Pot” charity for underprivileged families in Hương Khê, Hà Tĩnh.</p>
-          </div>
-          <button class="toggle-btn">➔</button>
-        </div>
-        <div class="social-slider">
-          <div class="slider-track">
-            <img src="asset/huongkhe_hatinh.jpg" alt="Social 1">
-            <img src="asset/huongkhe_hatinh2.jpg" alt="Social 2">
-            <img src="asset/dongvan_hagiang.jpg" alt="Social 3">
-          </div>
-        </div>
-      </div>
-
-      <!-- 2 -->
-      <div class="social-card">
-        <div class="social-header">
-          <div>
-            <h3 class="social-title-card">Cultural Studies at Imperial Citadel of Thang Long</h3>
-            <p class="social-desc">Participated in cultural studies and experiences at the Central Sector of the
-              Imperial Citadel of Thang Long.</p>
-          </div>
-          <button class="toggle-btn">➔</button>
-        </div>
-        <div class="social-slider">
-          <div class="slider-track">
-            <img src="asset/thang_long.jpg" alt="Volunteer 1">
-          </div>
-        </div>
-      </div>
-
-      <!-- 3 -->
-      <div class="social-card">
-        <div class="social-header">
-          <div>
-            <h3 class="social-title-card">Volunteer in Lao Cai City</h3>
-            <p class="social-desc">Volunteer leader and supported the students of Lao Cai City.</p>
-          </div>
-          <button class="toggle-btn">➔</button>
-        </div>
-        <div class="social-slider">
-          <div class="slider-track">
-            <img src="asset/laocai.jpg" alt="Fund 1">
-          </div>
-        </div>
-      </div>
-
-      <!-- 4 -->
-      <div class="social-card">
-        <div class="social-header">
-          <div>
-            <h3 class="social-title-card">Member of the Logistics Department in Science Tornado 2023</h3>
-            <p class="social-desc">Contributed as a member of the Logistics Department in Science Tornado 2023.</p>
-          </div>
-          <button class="toggle-btn">➔</button>
-        </div>
-        <div class="social-slider">
-          <div class="slider-track">
-            <img src="asset/logistics.jpg" alt="Art 1">
-          </div>
-        </div>
-      </div>
-
-      <!-- 5 -->
-      <div class="social-card">
-        <div class="social-header">
-          <div>
-            <h3 class="social-title-card">Top 20 Ambassadors - Ams Ngày Hội Anh Tài</h3>
-            <p class="social-desc">Recognized as one of the Top 20 Ambassadors of Ams Ngày Hội Anh Tài, contributing to
-              event promotion, connecting students, and fostering school spirit through active participation and
-              leadership.</p>
-          </div>
-          <button class="toggle-btn">➔</button>
-        </div>
-        <div class="social-slider">
-          <div class="slider-track">
-            <img src="asset/ambassadors_1.jpg" alt="Ambassador 1">
-            <img src="asset/ambassadors_2.jpg" alt="Ambassador 2">
-          </div>
-        </div>
-      </div>
-
-      <!-- 6 -->
-      <div class="social-card">
-        <div class="social-header">
-          <div>
-            <h3 class="social-title-card">Participated in the "Smiling Chances" 2025 Program at Lucky Village</h3>
-            <p class="social-desc">Location: Binh Hung Hoa Ward, Binh Tan District, Ho Chi Minh City.<br>
-              Date: Morning of August 4, 2025.<br>
-              Role: Responsible for organizing musical performances and serving as the game host for "Đuổi hình bắt chữ"
-              (a wordplay game similar to charades).</p>
-          </div>
-          <button class="toggle-btn">➔</button>
-        </div>
-        <div class="social-slider">
-          <div class="slider-track">
-            <img src="asset/smiling_chances.jpg" alt="Concert 1">
-          </div>
-        </div>
-      </div>
-
-      <div class="social-card">
-        <div class="social-header">
-          <div>
-            <h3 class="social-title-card">
-              Recognized by the People’s Committee of Tram Tau District for Contributions to Support Schools Affected by
-              Storm Yagi (2024)
-            </h3>
-            <p class="social-desc">
-              Certificate of Commendation from the People’s Committee of Tram Tau District, Yen Bai Province.<br>
-              In recognition of voluntary support and donation activities to assist PTDTBT Primary and Secondary School
-              of Khau Ly, Ban Mu Commune, Tram Tau District, Yen Bai Province, affected by Typhoon Yagi.
-            </p>
-          </div>
-          <button class="toggle-btn">➔</button>
-        </div>
-
-        <div class="social-slider">
-          <div class="slider-track">
-            <img src="cer1.jpg" alt="Commendation Decision - Tram Tau District">
-            <img src="cer2.jpg" alt="List of Commended Individuals">
-          </div>
-        </div>
-      </div>
-
-      <div class="social-card">
-        <div class="social-header">
-          <div>
-            <h3 class="social-title-card">
-              Certificate of Appreciation for Participation as Guest Speaker in Orientation Day 2023: Amserverse
-            </h3>
-            <p class="social-desc">
-              Issued by the organizers, with signatures from Head Organizer Nguyen Le Duc Kien, Union Executive
-              Committee Representative Nguyen Van Dinh, and Head Organizer Nguyen Vu Cam Linh.
-            </p>
-          </div>
-          <button class="toggle-btn">➔</button>
-        </div>
-
-        <div class="social-slider">
-          <div class="slider-track">
-            <img src="diengia.jpg" alt="Commendation Decision - Tram Tau District">
-
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-  </section>
-
-  <section id="talents" class="talents">
-    <h2 class="talents-title"><span class="triangle"></span>Talents</h2>
-
-    <!-- Tabs -->
-    <div class="talent-tabs">
-      <button class="tab-btn active" data-tab="dance">Dance</button>
-      <button class="tab-btn" data-tab="acting">Acting</button>
-      <button class="tab-btn" data-tab="filmmaking">Filmmaking</button>
-      <button class="tab-btn" data-tab="singing">Singing</button>
-      <a class="tab-btn portfolio-btn" href="https://linhdantalent.my.canva.site/" target="_blank">
-        Portfolio
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Linh Dan - Portfolio</title>
+    <link rel="stylesheet" href="NguyenLinhDan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Inter:wght@300;500;700&display=swap"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Toolbar -->
+    <div class="toolbar">
+      <a href="#intro" class="tool-item">
+        <i class="fa fa-home"></i>
+        <div class="tooltip">Home</div>
+      </a>
+
+      <a href="#hero" class="tool-item">
+        <i class="fa fa-user"></i>
+        <div class="tooltip">About Me</div>
+      </a>
+
+      <a href="#awards" class="tool-item">
+        <i class="fa fa-award"></i>
+        <div class="tooltip">Honors & Awards</div>
+      </a>
+
+      <a href="#research-product" class="tool-item">
+        <i class="fa fa-flask"></i>
+        <div class="tooltip">Research Experience</div>
+      </a>
+
+      <a href="#research-product" class="tool-item">
+        <i class="fa fa-box"></i>
+        <div class="tooltip">Personal Product</div>
+      </a>
+
+      <a href="#leadership" class="tool-item">
+        <i class="fa fa-users"></i>
+        <div class="tooltip">Leadership</div>
+      </a>
+
+      <a href="#social" class="tool-item">
+        <i class="fa fa-handshake"></i>
+        <div class="tooltip">Social Work & Activities</div>
+      </a>
+
+      <a href="#talents" class="tool-item">
+        <i class="fa fa-star"></i>
+        <div class="tooltip">Talents</div>
+      </a>
+
+      <a href="#contact" class="tool-item">
+        <i class="fa fa-envelope"></i>
+        <div class="tooltip">Contact</div>
       </a>
     </div>
 
-    <!-- Tab Contents -->
-    <div class="talent-contents">
-      <!-- Dance -->
-      <div id="dance" class="tab-content active">
-        <h3>Dance Highlights</h3>
-
-        <div class="talent-item">
-          <div class="talent-info">
-            <h4>Main dancer in a performance that won the dancing festival</h4>
-          </div>
-          <div class="media-grid">
-            <img src="asset/dance_1.jpg">
-            <img src="asset/dance_2.jpg">
-            <img src="asset/dance_3.jpeg">
-            <img src="asset/dance_4.jpg">
-            <img src="asset/dance_5.jpg">
-          </div>
-        </div>
-
-        <div class="talent-item">
-          <div class="talent-info">
-            <h4>Dancing in top 20 Ams Ambassador</h4>
-          </div>
-          <div class="media-grid">
-            <img src="asset/ams_1.jpg">
-            <img src="asset/ams_2.jpg">
-            <img src="asset/ams_3.jpg">
-          </div>
-        </div>
-
-        <div class="talent-item">
-          <div class="talent-info">
-            <h4>Cheerleading</h4>
-          </div>
-          <div class="media-grid">
-            <img src="asset/cheer_2.jpg">
-            <img src="asset/cheer_3.jpg">
-
-          </div>
-        </div>
-
-        <div class="talent-item">
-          <div class="talent-info">
-            <h4>Performed for Cheer Ams at The Hidden Book by Ams Advisor</h4>
-          </div>
-          <div class="media-grid">
-            <img src="asset/cheer.jpg">
-          </div>
-        </div>
-
+    <!-- Intro Section -->
+    <section id="intro" class="intro">
+      <div class="intro-content">
+        <h2 class="intro-sub">Hello, I'm</h2>
+        <h1 class="intro-name">Nguyen Linh Dan</h1>
+        <div class="intro-underline"></div>
+        <p class="intro-tagline">Portfolio</p>
+        <button class="scroll-btn" onclick="document.querySelector('#hero').scrollIntoView({behavior: 'smooth'})">
+          ↓ Explore
+        </button>
       </div>
+    </section>
 
-      <!-- Acting -->
-      <div id="acting" class="tab-content">
-        <h3>Acting Highlights</h3>
-
-        <div class="talent-item">
-          <div class="talent-info">
-            <h4>Main Actor - Onstage 2024 theater production at Âu Cơ Art Center (Play: "5000 Miles")</h4>
-          </div>
-          <div class="media-grid">
-            <img src="asset/actor_1.jpg">
-            <img src="asset/actor_2.jpg">
-            <img src="asset/actor_3.jpg">
-            <img src="asset/actor_4.jpg">
-            <img src="asset/actor_5.jpg">
-          </div>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-container">
+        <!-- Bên trái: Thông tin -->
+        <div class="hero-left">
+          <h2> <span class="triangle"></span> About Me</h2>
+          <p>
+            I am Nguyen Linh Dan, a Grade 12 Mathematics student at Hanoi-Amsterdam High School for the Gifted,
+            where I've pursued academic excellence with a Grade 10 GPA of
+            <span class="highlight-score">9.3</span> and a Grade 11 GPA of
+            <span class="highlight-score">9.6</span>.
+            My education has nurtured a deep appreciation for analytical thinking, which I channel into my passion for
+            Finance.<br>
+            My journey extends beyond the classroom, blending data-driven curiosity with creative expression.
+            Fascination
+            with geometry sharpened my visual thinking, and a lifelong passion for the arts shaped a distinctive
+            artistic
+            perspective. My love for theater merges artistic sensibility with mathematical logic, enabling me to tell
+            stories, lead teams, and foster connection.<br>
+            Guided by a commitment to growth and impact, I strive to apply leadership and the logical mindset shaped by
+            mathematics to real-world challenges. Drawing on these strengths, I aspire to study finance as a stepping
+            stone to entrepreneurship, aiming to create ventures that balance logical rigor with meaningful
+            contributions
+            to society.<br>
+            I have achieved an IELTS score of <span class="highlight-score">6.5</span>, reflecting my dedication to
+            building a strong academic foundation for future studies abroad.
         </div>
 
-        <div class="talent-item">
-          <div class="talent-info">
-            <h4>Main Actor in short film “Chớp mắt thấy ngày qua”</h4>
+        <!-- Bên phải: Ảnh trong ô -->
+        <div class="hero-right">
+          <div class="image-box">
+            <img src="asset/profile_img.jpg" alt="Nguyen Linh Dan">
           </div>
-          <div class="media-grid">
-            <img src="asset/actor_12.jpg">
-            <img src="asset/actor_13.jpg">
-            <img src="asset/actor_14.jpg">
-          </div>
-        </div>
-
-        <div class="talent-item">
-          <div class="talent-info">
-            <h4>Member of the Acting Department in Life's So Drama Club for the term 2023–2024</h4>
-          </div>
-          <div class="media-grid">
-            <img src="asset/acting_1.jpg">
-            <img src="asset/acting_2.jpg">
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Filmmaking -->
-      <div id="filmmaking" class="tab-content">
-        <h3>Filmmaking Highlights</h3>
-
-        <div class="talent-item">
-          <div class="talent-info">
-            <h4>Graduated from Teen Filmmakers class at TPD Center</h4>
-          </div>
-          <div class="media-grid">
-            <img src="asset/film_1.jpg" alt="Filmmaking">
-            <img src="asset/film_2.jpg" alt="Filmmaking">
-            <img src="asset/film_3.jpg" alt="Filmmaking">
-            <img src="asset/film_4.jpg" alt="Filmmaking">
-            <img src="asset/film_5.png" alt="Filmmaking">
-          </div>
+          <div class="glass-label">Finance</div>
         </div>
       </div>
-    </div>
+      </div>
+      </div>
+    </section>
 
-    <!-- Singing -->
-    <div id="singing" class="tab-content">
-      <h3>Singing Highlights</h3>
+    <!-- Honors & Awards Section -->
+    <section id="awards" class="awards">
+      <h2 class="award-title"><span class="triangle"></span>Honors & Awards</h2>
 
-      <div class="talent-item">
-        <div class="talent-info">
-          <h4>Vocal in a performance in Ams' Got Talent 2024 and got Third Award</h4>
-        </div>
+      <ul class="award-timeline">
+        <!-- Award 2025 -->
+        <li class="award-item">
+          <span class="timeline-circle"></span>
+          <div class="award-date">2025</div>
+          <div class="award-card" data-images='["asset/wico.jpg","asset/Screenshot 2025-09-04 173153.png"]'>
+            <strong>Grand Award & Gold Award</strong> - World Invention Creativity Olympic 2025<br>
+            <div class="award-images"></div>
+          </div>
+        </li>
+
+        <li class="award-item">
+          <span class="timeline-circle"></span>
+          <div class="award-date">2025</div>
+          <div class="award-card" data-images='["asset/z6977781454117_df815a999d7e092f6b87ce393b45d9fd.jpg"]'>
+            <strong>Gold</strong> - “Advanced Innovation Global Competition 2025” Competition<br>
+            <em>Topic:</em> The Impact of Media Crises on Customer Loyalty<br>
+            <em>Task:</em> Conduct literature research and summarize crisis communication models
+            <div class="award-images"></div>
+          </div>
+        </li>
+
+        <!-- Award 2024 -->
+        <li class="award-item">
+          <span class="timeline-circle"></span>
+          <div class="award-date">2024</div>
+          <div class="award-card"
+            data-images='["asset/IPITEx_1.jpg","asset/IPITEx_2.jpg","asset/IPITEx_3.jpg","asset/IPITEx_4.jpg"]'>
+            <strong>Gold Medal & Special Award</strong> - IPITEx Innovation Competition (Thailand)
+            <div class="award-images"></div>
+          </div>
+        </li>
+
+        <li class="award-item">
+          <span class="timeline-circle"></span>
+          <div class="award-date">2024</div>
+          <div class="award-card" data-images='["asset/IKLC.jpg"]'>
+            <strong>Silver Medal</strong> - IKLC 2024 Junior Competition
+            <div class="award-images"></div>
+          </div>
+        </li>
+
+        <li class="award-item">
+          <span class="timeline-circle"></span>
+          <div class="award-date">2024</div>
+          <div class="award-card" data-images='["asset/IKSC.jpg"]'>
+            <strong>Gold Medal</strong> - IKSC 2024 Junior Competition
+            <div class="award-images"></div>
+          </div>
+        </li>
+
+        <li class="award-item">
+          <span class="timeline-circle"></span>
+          <div class="award-date" style="font-weight:600;">2024</div>
+
+          <div class="award-card" data-images='["z7026156779666_0cc05d45e1b82cf379b1a11eb725bbfd.jpg"]'
+            style="padding:12px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.06); background:#fff;">
+            <strong>SILVER MEDAL</strong> - “Indonesia International IoT Olympiad 2024” (Online Competition)<br>
+            <em>Project:</em> Revolutionizing Community Waste Management with Mobile Tech<br>
+            <em>Category / Note:</em> IoT / Online & Semarang, Indonesia (June 25-28, 2024)<br>
+            <div class="award-images" style="margin-top:8px;">
+              <!-- JS có thể đọc data-images và render thumbnail vào đây -->
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Research & Product Section -->
+    <section id="research-product" class="research-product">
+      <h2 class="research-product-title"><span class="triangle"></span>Research Experience</h2>
+
+      <!-- Research Card -->
+      <div class="info-card">
+        <div class="research-badge">Published Research</div>
+        <h3 class="info-title">
+          Applications of Artificial Intelligence (AI) in the Logistics Industry in Vietnam: Opportunities and
+          Challenges
+        </h3>
+
+        <p class="info-sub">
+          <strong>Journal:</strong> <span><a
+              href="https://www.researchgate.net/publication/391833979_Applications_of_Artificial_Intelligence_AI_In_the_Logistics_Industry_in_Vietnam_Opportunities_and_Challenges"
+              target="_blank" class="journal-link">International Journal of Scientific Research and Management
+              (IJSRM)</a></span>
+        </p>
+
+        <p class="info-desc">
+          <strong>Abstract:</strong> The logistics industry has rapidly developed in Vietnam. Modern solutions in
+          logistics help users transport goods effectively. In recent years, artificial intelligence (AI) has been
+          widely
+          applied in logistics to improve field performance. AI technology plays an important role in logistics,
+          bringing
+          great potential and benefits to the industry. It improves operational efficiency, forecasts demand, manages
+          risks, enhances customer experience, and reduces costs.
+        </p>
+
+        <p class="info-desc">
+          This paper presents and analyzes AI applications used in the logistics industry in Vietnam. Moreover, it
+          analyzes the impacts of AI applications on the field in Vietnam.
+        </p>
       </div>
 
-      <div class="talent-item">
-        <div class="talent-info">
-          <h4>Performed in 2019</h4>
+      <h2 class="research-product-title"><span class="triangle"></span>Personal Product</h2>
+
+      <!-- Product Card -->
+      <div class="info-card">
+        <div class="product-badge">Personal Project</div>
+        <h3 class="info-title">
+          Investment Simulation Website for New Investors
+        </h3>
+
+        <p class="info-desc">
+          A simulation platform designed for beginner investors to familiarize themselves with financial markets without
+          real money risk. The website provides a realistic experience through simulated stock trading, portfolio
+          tracking, and real-time or historical market data updates.
+        </p>
+
+        <!-- Image Gallery -->
+        <div class="simple-gallery">
+          <img src="Picture1.png" alt="Dashboard" class="gallery-product-img">
+          <img src="Picture2.png" alt="Portfolio" class="gallery-product-img">
+          <img src="Picture3.png" alt="Trading" class="gallery-product-img">
         </div>
-        <div class="media-grid">
-          <iframe src="https://drive.google.com/file/d/1XurrMvmZSAQOJZXsWDKM6ZxsmNjBhVu6/preview" width="640"
-            height="360" allow="autoplay" allowfullscreen></iframe>
+
+        <p class="info-sub"><strong>Key Features:</strong></p>
+        <ul class="info-list">
+          <li>Paper trading with virtual accounts</li>
+          <li>Intuitive interface for beginners</li>
+          <li>Real-time market data updates</li>
+          <li>Transaction history & performance tracking</li>
+          <li>Investment guides & risk analysis</li>
+        </ul>
+
+        <p class="info-sub"><strong>Technologies:</strong></p>
+        <div class="tech-simple">
+          <span>HTML/CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MongoDB</span>
+          <span>Financial APIs</span>
         </div>
+
+        <p class="info-desc">
+          <strong>Goal:</strong> To help beginners approach investing safely through hands-on practice, gaining a deeper
+          understanding of market fluctuations, portfolio management, and making informed investment decisions.
+        </p>
       </div>
 
-      <div class="talent-item">
-        <div class="talent-info">
-          <h4>Performed in 2022</h4>
+      <div class="info-card">
+        <div class="product-badge">Start-up</div>
+        <h3 class="info-title">
+          ONSTAGE Musical Theatre Program (11/2025)
+        </h3>
+
+        <ul class="info-list">
+          <li><strong>Role:</strong> General Director & Producer</li>
+          <li><strong>Team:</strong> 120 members (High school & University students)</li>
+          <li><strong>Budget:</strong> ≈20K USD (≈8K sponsorships + ≈12K internal fund)</li>
+          <li><strong>Revenue:</strong> ≈14K USD from ticket sales (>1,000 seats at Vietnam-Soviet Friendship Cultural
+            Palace)</li>
+          <li><strong>Profit:</strong> ≈2K USD (10%), with 20% donated to charity</li>
+          <li><strong>Media Coverage:</strong> Featured by 50+ outlets, including VTV1</li>
+        </ul>
+
+        <!-- Nút Proposal -->
+        <div class="proposal-section">
+          <a href="https://drive.google.com/drive/folders/1DHuVpokjK55A9lmSxGGSsANDjmi8V4aX?usp=drive_link"
+            target="_blank" class="proposal-btn">
+            View Media Coverage
+          </a>
+          <a href="https://www.facebook.com/LifesSoDrama" target="_blank" class="proposal-btn">
+            Fanpage
+          </a>
         </div>
-        <div class="media-grid">
-          <iframe src="https://drive.google.com/file/d/1HqL8LVX07Ep1QwrvqwMhrgZfjXzv6Sjd/preview" width="640"
-            height="360" allow="autoplay" allowfullscreen></iframe>
+
+        <!-- Gallery ảnh ONSTAGE -->
+        <div class="onstage-gallery-paginated">
+          <div id="onstage-gallery-grid" class="gallery-grid">
+          </div>
+
+          <div class="pagination-controls" style="text-align: center; margin-top: 30px;">
+            <div class="pagination-controls" style="text-align: center; margin-top: 30px;">
+              <button id="prev-page-btn" class="cta-button">
+                &#9664; Previous
+              </button>
+              <span id="page-counter" style="font-size: 1.1rem; font-weight: 600; color: #764ba2;">Page 1 / 1</span>
+              <button id="next-page-btn" class="cta-button">
+                Next &#9654;
+              </button>
+            </div>
+          </div>
+        </div>
+        <p class="info-desc">
+          Set in Vietnam during the 1980s, the play explored themes of faith and core human values.
+          By combining traditional music, dance, and costumes, the production created a performance
+          that was both intimate and profound. The goal was not only to entertain but also to help
+          the audience experience the depth of Vietnam's cultural heritage.
+        </p>
+      </div>
+    </section>
+
+
+    <section id="leadership" class="leadership">
+      <h2 class="leadership-title"><span class="triangle"></span>Leadership</h2>
+
+      <div class="leadership-container">
+
+        <!-- FEATURED CARD: President -->
+        <div class="leadership-card featured-card">
+          <div class="featured-header">
+            <h3 class="featured-role">
+              <i class="fas fa-crown"></i>
+              President, Life's So Drama Club - Term 2024-2025
+            </h3>
+          </div>
+
+          <!-- Gallery with 4 visible images + navigation -->
+          <div class="leadership-gallery" style="margin: 15px 0;">
+            <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+              <div class="gallery-media-item clickable-media">
+                <img src="asset/talent_2025.jpg" class="gallery-img" alt="Drama 1">
+              </div>
+              <div class="gallery-media-item clickable-media">
+                <img src="asset/film_4.jpg" class="gallery-img" alt="Drama 2">
+              </div>
+              <div class="gallery-media-item clickable-media">
+                <img src="asset/talent_2025_10.jpg" class="gallery-img" alt="Drama 3">
+              </div>
+              <div class="gallery-media-item clickable-media last-img-overlay" style="position: relative;">
+                <img src="asset/dance_2.jpg" class="gallery-img" alt="Drama 4">
+              </div>
+              <div class="gallery-media-item clickable-media">
+                <img src="asset/actor_13.jpg" class="gallery-img" alt="Drama 5">
+              </div>
+              <div class="gallery-media-item clickable-media">
+                <img src="asset/ams_1.jpg" class="gallery-img" alt="Drama 6">
+              </div>
+              <div class="gallery-media-item clickable-media">
+                <img src="asset/talent_2025_7.jpg" class="gallery-img" alt="Drama 7">
+              </div>
+              <div class="gallery-media-item clickable-media">
+                <img src="asset/talent_2025_9.jpg" class="gallery-img" alt="Drama 8">
+              </div>
+            </div>
+          </div>
+          <!-- Description -->
+          <div class="featured-description">
+            <p>
+              Led a <strong>70-member</strong> club with departments in Finance, PR, Media & Design, and more.
+              Directed productions that won a <strong>Special Award at God's Talent 2025</strong>,
+              while managing rehearsals, budgets, and fostering creativity across the team.
+            </p>
+            <a href="https://www.facebook.com/share/1AQNMDiJck/?mibextid=wwXIfr" target="_blank"
+              class="card-link">Fanpage
+            </a>
+          </div>
+        </div>
+
+        <!-- GRID: Other Leadership Cards -->
+        <div class="leadership-grid">
+
+          <!-- Card 2: Main Actor -->
+          <div class="leadership-card">
+            <img src="asset/director.jpg" alt="Main Actor" class="leader-img">
+            <div class="leader-info">
+              <h3 class="leader-role">Main Actor - Onstage 2024</h3>
+              <p class="leader-desc">
+                Starred as the lead actor in <strong>"5000 Dặm"</strong> at Âu Cơ Art Center, a production inspired by
+                the tragedy of 39 Vietnamese migrants. Explored themes of <strong>family, aspiration, and
+                  resilience</strong>, gaining
+                <strong>52 media features and national coverage on VTV1</strong>, and receiving strong audience acclaim.
+              </p>
+              <a href="https://www.facebook.com/share/p/19RgGim4H6/?mibextid=wwXIfr" target="_blank" class="card-link">
+                <i class="fas fa-link"></i> Link
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3: SOS -->
+          <div class="leadership-card">
+            <img src="asset/sos.jpg" alt="Vice Head Organizer" class="leader-img">
+            <div class="leader-info">
+              <h3 class="leader-role">Vice Head Organizer, SOS Children's Village Charity Project</h3>
+              <p class="leader-desc">
+                Co-led a fundraising initiative designing and selling <strong>Truth or Dare cards, UNO decks, and
+                  calendars</strong> inspired by Cartoon Network and Disney.
+                Achieved strong community support, raising meaningful funds for <strong>SOS Children's Village</strong>
+                and fostering lasting connections.
+              </p>
+              <a href="https://www.facebook.com/share/178iwKPWTL/?mibextid=wwXIfr" target="_blank" class="card-link">
+                <i class="fas fa-link"></i> Link
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4: Cheer Leader -->
+          <div class="leadership-card">
+            <img src="asset/cheer_2.jpg" alt="Cheer Leader" class="leader-img">
+
+            <div class="leader-info">
+              <h3 class="leader-role">Cheer Leader, Cheer Ams Club</h3>
+              <p class="leader-desc">
+                Performed as a cheerleader at multiple school and external events, including camps and basketball
+                matches.
+                Enhanced confidence, physical health, and teamwork while expanding networks through diverse experiences.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 5: Manager (Full Width) -->
+          <div class="leadership-card">
+            <img src="asset/football.jpg" alt="Manager" class="leader-img">
+            <div class="leader-info">
+              <h3 class="leader-role">Manager, HN Ams Football Club</h3>
+              <p class="leader-desc">
+                Organized team logistics from schedules to events, fostering unity and school pride.
+                Strengthened planning, organizational, and communication skills through active leadership.
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
+    </section>
 
-      <div class="talent-item">
-        <div class="talent-info">
-          <h4>Performed in 2023</h4>
+    <section id="social" class="social">
+      <h2 class="social-title"><span class="triangle"></span>Social Work & Activities</h2>
+
+      <div class="social-container">
+        <!-- 1 -->
+        <div class="social-card">
+          <div class="social-header">
+            <div>
+              <h3 class="social-title-card">Community Service in Đồng Văn, Hà Giang & Hương Khê, Hà Tĩnh</h3>
+              <p class="social-desc">Visited and donated gifts, built a water tank for people in Đồng Văn, Hà Giang.<br>
+                Supported the “Loving Porridge Pot” charity for underprivileged families in Hương Khê, Hà Tĩnh.</p>
+            </div>
+            <button class="toggle-btn">➔</button>
+          </div>
+          <div class="social-slider">
+            <div class="slider-track">
+              <img src="asset/huongkhe_hatinh.jpg" alt="Social 1">
+              <img src="asset/huongkhe_hatinh2.jpg" alt="Social 2">
+              <img src="asset/dongvan_hagiang.jpg" alt="Social 3">
+            </div>
+          </div>
         </div>
-        <div class="media-grid">
-          <iframe src="https://drive.google.com/file/d/1rTjQDw33zpd_jSWwxRZRoUym29DwyLR0/preview" width="640"
-            height="360" allow="autoplay" allowfullscreen></iframe>
+
+        <!-- 2 -->
+        <div class="social-card">
+          <div class="social-header">
+            <div>
+              <h3 class="social-title-card">Cultural Studies at Imperial Citadel of Thang Long</h3>
+              <p class="social-desc">Participated in cultural studies and experiences at the Central Sector of the
+                Imperial Citadel of Thang Long.</p>
+            </div>
+            <button class="toggle-btn">➔</button>
+          </div>
+          <div class="social-slider">
+            <div class="slider-track">
+              <img src="asset/thang_long.jpg" alt="Volunteer 1">
+            </div>
+          </div>
         </div>
+
+        <!-- 3 -->
+        <div class="social-card">
+          <div class="social-header">
+            <div>
+              <h3 class="social-title-card">Volunteer in Lao Cai City</h3>
+              <p class="social-desc">Volunteer leader and supported the students of Lao Cai City.</p>
+            </div>
+            <button class="toggle-btn">➔</button>
+          </div>
+          <div class="social-slider">
+            <div class="slider-track">
+              <img src="asset/laocai.jpg" alt="Fund 1">
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="social-card">
+          <div class="social-header">
+            <div>
+              <h3 class="social-title-card">Member of the Logistics Department in Science Tornado 2023</h3>
+              <p class="social-desc">Contributed as a member of the Logistics Department in Science Tornado 2023.</p>
+            </div>
+            <button class="toggle-btn">➔</button>
+          </div>
+          <div class="social-slider">
+            <div class="slider-track">
+              <img src="asset/logistics.jpg" alt="Art 1">
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="social-card">
+          <div class="social-header">
+            <div>
+              <h3 class="social-title-card">Top 20 Ambassadors - Ams Ngày Hội Anh Tài</h3>
+              <p class="social-desc">Recognized as one of the Top 20 Ambassadors of Ams Ngày Hội Anh Tài, contributing
+                to
+                event promotion, connecting students, and fostering school spirit through active participation and
+                leadership.</p>
+            </div>
+            <button class="toggle-btn">➔</button>
+          </div>
+          <div class="social-slider">
+            <div class="slider-track">
+              <img src="asset/ambassadors_1.jpg" alt="Ambassador 1">
+              <img src="asset/ambassadors_2.jpg" alt="Ambassador 2">
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="social-card">
+          <div class="social-header">
+            <div>
+              <h3 class="social-title-card">Participated in the "Smiling Chances" 2025 Program at Lucky Village</h3>
+              <p class="social-desc">Location: Binh Hung Hoa Ward, Binh Tan District, Ho Chi Minh City.<br>
+                Date: Morning of August 4, 2025.<br>
+                Role: Responsible for organizing musical performances and serving as the game host for "Đuổi hình bắt
+                chữ"
+                (a wordplay game similar to charades).</p>
+            </div>
+            <button class="toggle-btn">➔</button>
+          </div>
+          <div class="social-slider">
+            <div class="slider-track">
+              <img src="asset/smiling_chances.jpg" alt="Concert 1">
+            </div>
+          </div>
+        </div>
+
+        <div class="social-card">
+          <div class="social-header">
+            <div>
+              <h3 class="social-title-card">
+                Recognized by the People’s Committee of Tram Tau District for Contributions to Support Schools Affected
+                by
+                Storm Yagi (2024)
+              </h3>
+              <p class="social-desc">
+                Certificate of Commendation from the People’s Committee of Tram Tau District, Yen Bai Province.<br>
+                In recognition of voluntary support and donation activities to assist PTDTBT Primary and Secondary
+                School
+                of Khau Ly, Ban Mu Commune, Tram Tau District, Yen Bai Province, affected by Typhoon Yagi.
+              </p>
+            </div>
+            <button class="toggle-btn">➔</button>
+          </div>
+
+          <div class="social-slider">
+            <div class="slider-track">
+              <img src="cer1.jpg" alt="Commendation Decision - Tram Tau District">
+              <img src="cer2.jpg" alt="List of Commended Individuals">
+            </div>
+          </div>
+        </div>
+
+        <div class="social-card">
+          <div class="social-header">
+            <div>
+              <h3 class="social-title-card">
+                Certificate of Appreciation for Participation as Guest Speaker in Orientation Day 2023: Amserverse
+              </h3>
+              <p class="social-desc">
+                Issued by the organizers, with signatures from Head Organizer Nguyen Le Duc Kien, Union Executive
+                Committee Representative Nguyen Van Dinh, and Head Organizer Nguyen Vu Cam Linh.
+              </p>
+            </div>
+            <button class="toggle-btn">➔</button>
+          </div>
+
+          <div class="social-slider">
+            <div class="slider-track">
+              <img src="diengia.jpg" alt="Commendation Decision - Tram Tau District">
+
+            </div>
+          </div>
+        </div>
+
+
       </div>
+    </section>
 
-    </div>
-    </div>
+    <section id="talents" class="talents">
+      <h2 class="talents-title"><span class="triangle"></span>Talents</h2>
 
-
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section">
-    <div class="contact-container">
-      <div class="contact-card">
-        <div class="icon"><i class="fas fa-envelope"></i></div>
-        <h3>Email Support</h3>
-        <a href="mailto:nlinhdan741@gmail.com">nlinhdan741@gmail.com</a>
-      </div>
-      <div class="contact-card">
-        <div class="icon"><i class="fab fa-facebook-f"></i></div>
-        <h3>Follow Facebook</h3>
-        <a href="https://www.facebook.com/nguyen.linh.an.314793?mibextid=wwXIfr&rdid=ZIvQ1vLppKWFF1HU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BLGnHnDyU%2F%3Fmibextid%3DwwXIfr#"
-          target="_blank">
-          Nguyễn Linh Đan (Ruby)
+      <!-- Tabs -->
+      <div class="talent-tabs">
+        <button class="tab-btn active" data-tab="dance">Dance</button>
+        <button class="tab-btn" data-tab="acting">Acting</button>
+        <button class="tab-btn" data-tab="filmmaking">Filmmaking</button>
+        <button class="tab-btn" data-tab="singing">Singing</button>
+        <a class="tab-btn portfolio-btn" href="https://linhdantalent.my.canva.site/" target="_blank">
+          Portfolio
         </a>
       </div>
-      <div class="contact-card">
-        <div class="icon"><i class="fas fa-phone"></i></div>
-        <h3>Call Directly</h3>
-        <a href="tel:0915306010">0915306010</a>
-      </div>
-    </div>
-  </section>
 
-  <!-- Popup ảnh chung -->
-  <div id="img-popup" class="img-popup">
-    <span class="close">&times;</span>
-    <button class="prev">&#10094;</button>
-    <img class="popup-img" src="" alt="Award Image">
-    <button class="next">&#10095;</button>
-  </div>
+      <!-- Tab Contents -->
+      <div class="talent-contents">
+        <!-- Dance -->
+        <div id="dance" class="tab-content active">
+          <h3>Dance Highlights</h3>
 
-  <!-- Popup để hiển thị ảnh -->
-  <div class="leader-popup" id="leaderPopup">
-    <img src="" alt="Preview">
-  </div>
-
-  <!-- Popup cho ONSTAGE Gallery -->
-  <div id="onstagePopup" class="onstage-popup">
-    <div class="popup-overlay">
-      <div class="popup-container">
-        <span class="popup-close">&times;</span>
-
-        <div class="popup-header">
-          <h3>ONSTAGE Production Gallery</h3>
-        </div>
-
-        <div class="popup-content-wrapper">
-          <div class="popup-main-image">
-            <div class="image-shape">
-              <img id="popupMainImage" src="" alt="ONSTAGE">
+          <div class="talent-item">
+            <div class="talent-info">
+              <h4>Main dancer in a performance that won the dancing festival</h4>
             </div>
-            <div class="image-navigation">
-              <button id="popupPrevBtn" class="nav-btn">
-                <i class="fas fa-chevron-left"></i>
-              </button>
-              <button id="popupNextBtn" class="nav-btn">
-                <i class="fas fa-chevron-right"></i>
-              </button>
+            <div class="media-grid">
+              <img src="asset/dance_1.jpg">
+              <img src="asset/dance_2.jpg">
+              <img src="asset/dance_3.jpeg">
+              <img src="asset/dance_4.jpg">
+              <img src="asset/dance_5.jpg">
             </div>
           </div>
 
-          <div class="popup-info">
-            <div class="image-info">
-              <h4 id="popupImageTitle">Image Title</h4>
-              <p id="popupImageDesc">Image description goes here...</p>
+          <div class="talent-item">
+            <div class="talent-info">
+              <h4>Dancing in top 20 Ams Ambassador</h4>
+            </div>
+            <div class="media-grid">
+              <img src="asset/ams_1.jpg">
+              <img src="asset/ams_2.jpg">
+              <img src="asset/ams_3.jpg">
+            </div>
+          </div>
+
+          <div class="talent-item">
+            <div class="talent-info">
+              <h4>Cheerleading</h4>
+            </div>
+            <div class="media-grid">
+              <img src="asset/cheer_2.jpg">
+              <img src="asset/cheer_3.jpg">
+
+            </div>
+          </div>
+
+          <div class="talent-item">
+            <div class="talent-info">
+              <h4>Performed for Cheer Ams at The Hidden Book by Ams Advisor</h4>
+            </div>
+            <div class="media-grid">
+              <img src="asset/cheer.jpg">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Acting -->
+        <div id="acting" class="tab-content">
+          <h3>Acting Highlights</h3>
+
+          <div class="talent-item">
+            <div class="talent-info">
+              <h4>Main Actor - Onstage 2024 theater production at Âu Cơ Art Center (Play: "5000 Miles")</h4>
+            </div>
+            <div class="media-grid">
+              <img src="asset/actor_1.jpg">
+              <img src="asset/actor_2.jpg">
+              <img src="asset/actor_3.jpg">
+              <img src="asset/actor_4.jpg">
+              <img src="asset/actor_5.jpg">
+            </div>
+          </div>
+
+          <div class="talent-item">
+            <div class="talent-info">
+              <h4>Main Actor in short film “Chớp mắt thấy ngày qua”</h4>
+            </div>
+            <div class="media-grid">
+              <img src="asset/actor_12.jpg">
+              <img src="asset/actor_13.jpg">
+              <img src="asset/actor_14.jpg">
+            </div>
+          </div>
+
+          <div class="talent-item">
+            <div class="talent-info">
+              <h4>Member of the Acting Department in Life's So Drama Club for the term 2023–2024</h4>
+            </div>
+            <div class="media-grid">
+              <img src="asset/acting_1.jpg">
+              <img src="asset/acting_2.jpg">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Filmmaking -->
+        <div id="filmmaking" class="tab-content">
+          <h3>Filmmaking Highlights</h3>
+
+          <div class="talent-item">
+            <div class="talent-info">
+              <h4>Graduated from Teen Filmmakers class at TPD Center</h4>
+            </div>
+            <div class="media-grid">
+              <img src="asset/film_1.jpg" alt="Filmmaking">
+              <img src="asset/film_2.jpg" alt="Filmmaking">
+              <img src="asset/film_3.jpg" alt="Filmmaking">
+              <img src="asset/film_4.jpg" alt="Filmmaking">
+              <img src="asset/film_5.png" alt="Filmmaking">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Singing -->
+      <div id="singing" class="tab-content">
+        <h3>Singing Highlights</h3>
+
+        <div class="talent-item">
+          <div class="talent-info">
+            <h4>Vocal in a performance in Ams' Got Talent 2024 and got Third Award</h4>
+          </div>
+        </div>
+
+        <div class="talent-item">
+          <div class="talent-info">
+            <h4>Performed in 2019</h4>
+          </div>
+          <div class="media-grid">
+            <iframe src="https://drive.google.com/file/d/1XurrMvmZSAQOJZXsWDKM6ZxsmNjBhVu6/preview" width="640"
+              height="360" allow="autoplay" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="talent-item">
+          <div class="talent-info">
+            <h4>Performed in 2022</h4>
+          </div>
+          <div class="media-grid">
+            <iframe src="https://drive.google.com/file/d/1HqL8LVX07Ep1QwrvqwMhrgZfjXzv6Sjd/preview" width="640"
+              height="360" allow="autoplay" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="talent-item">
+          <div class="talent-info">
+            <h4>Performed in 2023</h4>
+          </div>
+          <div class="media-grid">
+            <iframe src="https://drive.google.com/file/d/1rTjQDw33zpd_jSWwxRZRoUym29DwyLR0/preview" width="640"
+              height="360" allow="autoplay" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <div class="contact-card">
+          <div class="icon"><i class="fas fa-envelope"></i></div>
+          <h3>Email Support</h3>
+          <a href="mailto:nlinhdan741@gmail.com">nlinhdan741@gmail.com</a>
+        </div>
+        <div class="contact-card">
+          <div class="icon"><i class="fab fa-facebook-f"></i></div>
+          <h3>Follow Facebook</h3>
+          <a href="https://www.facebook.com/nguyen.linh.an.314793?mibextid=wwXIfr&rdid=ZIvQ1vLppKWFF1HU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BLGnHnDyU%2F%3Fmibextid%3DwwXIfr#"
+            target="_blank">
+            Nguyễn Linh Đan (Ruby)
+          </a>
+        </div>
+        <div class="contact-card">
+          <div class="icon"><i class="fas fa-phone"></i></div>
+          <h3>Call Directly</h3>
+          <a href="tel:0915306010">0915306010</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popup ảnh chung -->
+    <div id="img-popup" class="img-popup">
+      <span class="close">&times;</span>
+      <button class="prev">&#10094;</button>
+      <img class="popup-img" src="" alt="Award Image">
+      <button class="next">&#10095;</button>
+    </div>
+
+    <!-- Popup để hiển thị ảnh -->
+    <div class="leader-popup" id="leaderPopup">
+      <img src="" alt="Preview">
+    </div>
+
+    <!-- Popup cho ONSTAGE Gallery -->
+    <div id="onstagePopup" class="onstage-popup">
+      <div class="popup-overlay">
+        <div class="popup-container">
+          <span class="popup-close">&times;</span>
+
+          <div class="popup-header">
+            <h3>ONSTAGE Production Gallery</h3>
+          </div>
+
+          <div class="popup-content-wrapper">
+            <div class="popup-main-image">
+              <div class="image-shape">
+                <img id="popupMainImage" src="" alt="ONSTAGE">
+              </div>
+              <div class="image-navigation">
+                <button id="popupPrevBtn" class="nav-btn">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="popupNextBtn" class="nav-btn">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
             </div>
 
-            <div class="image-counter">
-              <span id="currentImageIndex">1</span> / <span id="totalImages">9</span>
-            </div>
+            <div class="popup-info">
+              <div class="image-info">
+                <h4 id="popupImageTitle">Image Title</h4>
+                <p id="popupImageDesc">Image description goes here...</p>
+              </div>
 
-            <div class="thumbnail-grid" id="thumbnailGrid">
-              <!-- Thumbnails được tạo bởi JavaScript -->
+              <div class="image-counter">
+                <span id="currentImageIndex">1</span> / <span id="totalImages">9</span>
+              </div>
+
+              <div class="thumbnail-grid" id="thumbnailGrid">
+                <!-- Thumbnails được tạo bởi JavaScript -->
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Popup cho Social -->
-  <div id="socialPopup" class="popup">
-    <span class="close">&times;</span>
-    <img src="" alt="Social Preview">
-  </div>
+    <!-- Popup cho Social -->
+    <div id="socialPopup" class="popup">
+      <span class="close">&times;</span>
+      <img src="" alt="Social Preview">
+    </div>
 
-  <!-- Popup cho Talents -->
-  <div id="talentsPopup" class="talents-popup">
-    <span class="close">&times;</span>
-    <div class="popup-content"></div>
-  </div>
+    <!-- Popup cho Talents -->
+    <div id="talentsPopup" class="talents-popup">
+      <span class="close">&times;</span>
+      <div class="popup-content"></div>
+    </div>
 
-  <!-- Popup cho Product Images -->
-  <div id="productPopup" class="img-popup">
-    <span class="close">&times;</span>
-    <button class="prev">&#10094;</button>
-    <img class="popup-img" src="" alt="Product Image">
-    <button class="next">&#10095;</button>
-  </div>
+    <!-- Popup cho Product Images -->
+    <div id="productPopup" class="img-popup">
+      <span class="close">&times;</span>
+      <button class="prev">&#10094;</button>
+      <img class="popup-img" src="" alt="Product Image">
+      <button class="next">&#10095;</button>
+    </div>
 
-  <!-- Popup cho Product Images -->
-  <div id="productPopup" class="img-popup">
-    <span class="close">&times;</span>
-    <button class="prev">&#10094;</button>
-    <img class="popup-img" src="" alt="Product Image">
-    <button class="next">&#10095;</button>
-  </div>
+    <!-- Popup cho Product Images -->
+    <div id="productPopup" class="img-popup">
+      <span class="close">&times;</span>
+      <button class="prev">&#10094;</button>
+      <img class="popup-img" src="" alt="Product Image">
+      <button class="next">&#10095;</button>
+    </div>
 
-  <script>
-    let talentsAnimated = false;
+    <script>
+      let talentsAnimated = false;
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.querySelectorAll('*').forEach(el => {
-            el.classList.add('animate');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.querySelectorAll('*').forEach(el => {
+              el.classList.add('animate');
+            });
+          }
+          // ✅ Xóa phần else để không remove class 'animate'
+        });
+      }, {
+        threshold: 0.15,  // Giảm threshold để trigger sớm hơn
+        rootMargin: '0px 0px -100px 0px'  // Trigger trước khi element vào viewport
+      });
+
+      document.querySelectorAll('.intro, .hero, .awards, .research-product, .leadership, .social, .contact, .talents')
+        .forEach(section => observer.observe(section));
+
+    </script>
+
+    <script>
+      document.querySelectorAll(".social-card").forEach(card => {
+        const btn = card.querySelector(".toggle-btn");
+        const slider = card.querySelector(".social-slider");
+
+        btn.addEventListener("click", () => {
+          slider.classList.toggle("active");
+          btn.classList.toggle("active");
+        });
+      });
+    </script>
+
+    <script>
+      const cards = document.querySelectorAll('.award-card');
+      const popup = document.getElementById('img-popup');
+      const popupImg = popup.querySelector('.popup-img');
+      const closeBtn = popup.querySelector('.close');
+      const prevBtn = popup.querySelector('.prev');
+      const nextBtn = popup.querySelector('.next');
+
+      let currentImages = [];
+      let currentIndex = 0;
+
+      cards.forEach(card => {
+        card.addEventListener('click', () => {
+          const imgs = JSON.parse(card.dataset.images || "[]");
+          if (imgs.length) {
+            currentImages = imgs;
+            currentIndex = 0;
+            popupImg.src = currentImages[currentIndex];
+            popup.style.display = 'flex';
+          }
+        });
+      });
+
+      const showImage = (index) => {
+        popupImg.src = currentImages[index];
+      }
+
+      prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+        showImage(currentIndex);
+      });
+
+      nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % currentImages.length;
+        showImage(currentIndex);
+      });
+
+      closeBtn.addEventListener('click', () => {
+        popup.style.display = 'none';
+        currentImages = [];
+        currentIndex = 0;
+      });
+
+    </script>
+
+    <script>
+      const imgs = document.querySelectorAll('.leader-img');
+      const leaderPopup = document.getElementById('leaderPopup');
+      const leaderPopupImg = leaderPopup.querySelector('img');
+
+      imgs.forEach(img => {
+        img.addEventListener('click', () => {
+          leaderPopup.style.display = 'flex';
+          leaderPopupImg.src = img.src;
+        });
+      });
+
+      leaderPopup.addEventListener('click', () => {
+        leaderPopup.style.display = 'none';
+      });
+
+    </script>
+
+    <script>
+      const tabButtons = document.querySelectorAll('.tab-btn');
+      const tabContents = document.querySelectorAll('.tab-content');
+
+      tabButtons.forEach(btn => {
+        // 👉 nếu là nút Portfolio thì bỏ qua, không xử lý như tab
+        if (btn.classList.contains('portfolio-btn')) return;
+
+        btn.addEventListener('click', () => {
+          const target = btn.dataset.tab;
+
+          tabButtons.forEach(b => b.classList.remove('active'));
+          tabContents.forEach(c => c.classList.remove('active'));
+
+          btn.classList.add('active');
+          const content = document.getElementById(target);
+          if (content) content.classList.add('active');
+        });
+      });
+    </script>
+
+    <script>
+      const socialImgs = document.querySelectorAll('.social-slider img');
+      const socialPopup = document.getElementById('socialPopup');
+      const socialPopupImg = socialPopup.querySelector('img');
+      const socialClose = socialPopup.querySelector('.close');
+
+      socialImgs.forEach(img => {
+        img.addEventListener('click', () => {
+          socialPopup.style.display = 'flex';
+          socialPopupImg.src = img.src;
+        });
+      });
+
+      socialPopup.addEventListener('click', (e) => {
+        if (e.target === socialPopup || e.target === socialClose) {
+          socialPopup.style.display = 'none';
+        }
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const mediaItems = document.querySelectorAll('.media-grid img, .media-grid video');
+        const talentsPopup = document.getElementById('talentsPopup');
+        const popupContent = talentsPopup.querySelector('.popup-content');
+        const talentsClose = talentsPopup.querySelector('.close');
+
+        mediaItems.forEach(item => {
+          item.addEventListener('click', () => {
+            talentsPopup.style.display = 'flex';
+            popupContent.innerHTML = ""; // reset
+
+            if (item.tagName.toLowerCase() === 'img') {
+              const clone = document.createElement('img');
+              clone.src = item.src;
+              popupContent.appendChild(clone);
+            } else if (item.tagName.toLowerCase() === 'video') {
+              const clone = document.createElement('video');
+              clone.src = item.querySelector('source').src;
+              clone.controls = true;
+              clone.autoplay = true;
+              popupContent.appendChild(clone);
+            }
+          });
+        });
+
+        talentsPopup.addEventListener('click', (e) => {
+          if (e.target === talentsPopup || e.target === talentsClose) {
+            talentsPopup.style.display = 'none';
+            popupContent.innerHTML = "";
+          }
+        });
+      });
+    </script>
+
+    <script>
+      const sliders = document.querySelectorAll(".slider-container");
+
+      sliders.forEach(container => {
+        const slider = container.querySelector(".slider");
+        const slides = slider.querySelectorAll("img");
+        const prev = container.querySelector(".prev");
+        const next = container.querySelector(".next");
+
+        let index = 0;
+
+        function showSlide(i) {
+          if (i < 0) index = slides.length - 1;
+          else if (i >= slides.length) index = 0;
+          else index = i;
+          slider.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        prev.addEventListener("click", () => showSlide(index - 1));
+        next.addEventListener("click", () => showSlide(index + 1));
+      });
+      // Hover để xổ ảnh trong Honors & Awards
+      const awardCards = document.querySelectorAll('.award-card');
+
+      awardCards.forEach(card => {
+        const images = JSON.parse(card.getAttribute('data-images'));
+        const container = card.querySelector('.award-images');
+
+        card.addEventListener('mouseenter', () => {
+          if (images && images.length > 0) {
+            container.innerHTML = images.map(src => `<img src="${src}" alt="award">`).join('');
+            container.style.display = 'flex';
+          }
+        });
+
+        card.addEventListener('mouseleave', () => {
+          container.innerHTML = '';
+          container.style.display = 'none';
+        });
+      });
+
+    </script>
+
+    <script>
+      // Product Images Popup
+      const productImages = document.querySelectorAll('.gallery-product-img');
+      const productPopup = document.getElementById('productPopup');
+      const productPopupImg = productPopup ? productPopup.querySelector('.popup-img') : null;
+      const productClose = productPopup ? productPopup.querySelector('.close') : null;
+      const productPrev = productPopup ? productPopup.querySelector('.prev') : null;
+      const productNext = productPopup ? productPopup.querySelector('.next') : null;
+
+      let currentProductImages = [];
+      let currentProductIndex = 0;
+
+      if (productImages.length > 0 && productPopup) {
+        currentProductImages = Array.from(productImages).map(img => img.src);
+
+        productImages.forEach((img, index) => {
+          img.addEventListener('click', () => {
+            currentProductIndex = index;
+            productPopupImg.src = currentProductImages[currentProductIndex];
+            productPopup.style.display = 'flex';
+          });
+        });
+
+        if (productClose) {
+          productClose.addEventListener('click', () => {
+            productPopup.style.display = 'none';
           });
         }
-        // ✅ Xóa phần else để không remove class 'animate'
+
+        if (productPrev) {
+          productPrev.addEventListener('click', () => {
+            currentProductIndex = (currentProductIndex - 1 + currentProductImages.length) % currentProductImages.length;
+            productPopupImg.src = currentProductImages[currentProductIndex];
+          });
+        }
+
+        if (productNext) {
+          productNext.addEventListener('click', () => {
+            currentProductIndex = (currentProductIndex + 1) % currentProductImages.length;
+            productPopupImg.src = currentProductImages[currentProductIndex];
+          });
+        }
+
+        productPopup.addEventListener('click', (e) => {
+          if (e.target === productPopup) {
+            productPopup.style.display = 'none';
+          }
+        });
+
+        document.addEventListener('keydown', (e) => {
+          if (productPopup.style.display === 'flex') {
+            if (e.key === 'ArrowLeft' && productPrev) {
+              productPrev.click();
+            } else if (e.key === 'ArrowRight' && productNext) {
+              productNext.click();
+            } else if (e.key === 'Escape' && productClose) {
+              productClose.click();
+            }
+          }
+        });
+      }
+    </script>
+    <script>
+      // Featured Gallery Navigation - FIXED VERSION
+      document.addEventListener('DOMContentLoaded', () => {
+        const track = document.querySelector('.featured-gallery .gallery-track');
+        const items = document.querySelectorAll('.featured-gallery .gallery-item');
+        const prevBtn = document.querySelector('.featured-gallery .prev-gallery');
+        const nextBtn = document.querySelector('.featured-gallery .next-gallery');
+
+        if (!track || !items.length || !prevBtn || !nextBtn) {
+          console.log('Gallery elements not found');
+          return;
+        }
+
+        let currentIndex = 0;
+        const itemsPerView = 4;
+        const totalSlides = items.length;
+
+        function updateGallery() {
+          // Tính toán offset
+          const firstItem = items[0];
+          const itemWidth = firstItem.offsetWidth;
+          const gap = 15;
+          const offset = -(currentIndex * (itemWidth + gap));
+
+          // Di chuyển gallery
+          track.style.transform = `translateX(${offset}px)`;
+
+          // Cập nhật trạng thái nút
+          prevBtn.style.opacity = currentIndex === 0 ? '0.5' : '1';
+          prevBtn.style.cursor = currentIndex === 0 ? 'not-allowed' : 'pointer';
+
+          const maxIndex = Math.max(0, totalSlides - itemsPerView);
+          nextBtn.style.opacity = currentIndex >= maxIndex ? '0.5' : '1';
+          nextBtn.style.cursor = 'pointer';
+
+          console.log('Current index:', currentIndex, 'Max:', maxIndex);
+        }
+
+        // Sự kiện nút Previous
+        prevBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (currentIndex > 0) {
+            currentIndex--;
+            updateGallery();
+          }
+        });
+
+        // Sự kiện nút Next
+        nextBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const maxIndex = Math.max(0, totalSlides - itemsPerView);
+          if (currentIndex < maxIndex) {
+            currentIndex++;
+            updateGallery();
+          }
+        });
+
+        // Click vào ảnh để xem popup
+        items.forEach(img => {
+          img.addEventListener('click', () => {
+            const leaderPopup = document.getElementById('leaderPopup');
+            const leaderPopupImg = leaderPopup?.querySelector('img');
+            if (leaderPopup && leaderPopupImg) {
+              leaderPopup.style.display = 'flex';
+              leaderPopupImg.src = img.src;
+            }
+          });
+        });
+
+        // Cập nhật khi resize
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(() => {
+            updateGallery();
+          }, 250);
+        });
+
+        // Khởi tạo
+        updateGallery();
       });
-    }, {
-      threshold: 0.15,  // Giảm threshold để trigger sớm hơn
-      rootMargin: '0px 0px -100px 0px'  // Trigger trước khi element vào viewport
-    });
 
-    document.querySelectorAll('.intro, .hero, .awards, .research-product, .leadership, .social, .contact, .talents')
-      .forEach(section => observer.observe(section));
 
-  </script>
 
-  <script>
-    document.querySelectorAll(".social-card").forEach(card => {
-      const btn = card.querySelector(".toggle-btn");
-      const slider = card.querySelector(".social-slider");
+      const ONSTAGE_IMAGES_PER_PAGE = 10; // Changed back to 20 for more content per page
+      let currentPage = 1;
 
-      btn.addEventListener("click", () => {
-        slider.classList.toggle("active");
-        btn.classList.toggle("active");
-      });
-    });
-  </script>
+      // Define ALL media assets (Images and the corrected video asset)
+      const ONSTAGE_MEDIA_ASSETS = [
+        { type: 'img', src: 'z7033380487774_cb68e09cf363127d860cc0d6651ed14b.jpg', alt: 'ONSTAGE Photo 1' },
+        { type: 'img', src: 'z7033380496925_b5df2b47715251e6cf9683a1e43ee67d.jpg', alt: 'ONSTAGE Photo 2' },
+        { type: 'img', src: 'z7033380487644_bd5f9e52ef21476d0ca8d1598b1e748e.jpg', alt: 'ONSTAGE Photo 3' },
+        { type: 'img', src: 'z7033380494963_fbce3526fde8006afc20a2813ca6c951.jpg', alt: 'ONSTAGE Photo 4' },
+        { type: 'img', src: 'z7033380491686_96b79b821f9d9c24181f77369a031fc1.jpg', alt: 'ONSTAGE Photo 5' },
+        { type: 'img', src: 'z7033380519551_307f0f5a7e487a4623b2cda6b1d25149.jpg', alt: 'ONSTAGE Photo 6' },
+        { type: 'img', src: 'z7033380514659_8d8fd5ed4d4e8f8363833d2cccbc9e00.jpg', alt: 'ONSTAGE Photo 7' },
+        { type: 'img', src: 'z7033380495280_d60620f92a559668f7f21cb21b0b8208.jpg', alt: 'ONSTAGE Photo 8' },
+        { type: 'img', src: 'z7033380488516_2490c3363379c9947c423c174f8dfc2f.jpg', alt: 'ONSTAGE Photo 9' },
+        { type: 'img', src: 'ont.jpg', alt: 'ONSTAGE Photo 10' },
+        { type: 'img', src: 'ont1.jpg', alt: 'ONSTAGE Photo 11' },
+        { type: 'img', src: 'ont2.jpg', alt: 'ONSTAGE Photo 12' },
+        { type: 'img', src: 'asset/ont3.jpg', alt: 'ONSTAGE Photo 13' },
+        { type: 'img', src: 'asset/ont4.jpg', alt: 'ONSTAGE Photo 14' },
+        { type: 'img', src: 'asset/ont1/ont5.jpg', alt: 'ONSTAGE Photo 15' },
+        { type: 'img', src: 'asset/ont1/ont6.jpg', alt: 'ONSTAGE Photo 16' },
+        { type: 'img', src: 'asset/ont1/ont11.jpg', alt: 'ONSTAGE Photo 21' },
+        { type: 'img', src: 'asset/ont1/ont17.jpg', alt: 'ONSTAGE Photo 27' },
+        { type: 'img', src: 'asset/ont1/ont30.jpg', alt: 'ONSTAGE Photo 40' }
+      ];
 
-  <script>
-    const cards = document.querySelectorAll('.award-card');
-    const popup = document.getElementById('img-popup');
-    const popupImg = popup.querySelector('.popup-img');
-    const closeBtn = popup.querySelector('.close');
-    const prevBtn = popup.querySelector('.prev');
-    const nextBtn = popup.querySelector('.next');
+      const totalPages = Math.ceil(ONSTAGE_MEDIA_ASSETS.length / ONSTAGE_IMAGES_PER_PAGE);
 
-    let currentImages = [];
-    let currentIndex = 0;
+      // --- Lightbox / Media Player Logic (using the 'talentsPopup') ---
+      // --- Lightbox / Media Player Logic (using the 'talentsPopup') ---
+      function openOnstageMedia(media, index) {
+        // Collect all image sources from the main asset list
+        const imageAssets = ONSTAGE_MEDIA_ASSETS.filter(m => m.type === 'img');
 
-    cards.forEach(card => {
-      card.addEventListener('click', () => {
-        const imgs = JSON.parse(card.dataset.images || "[]");
-        if (imgs.length) {
-          currentImages = imgs;
-          currentIndex = 0;
+        // --- Determine which popup to open ---
+        if (media.type === 'img') {
+          const imgPopup = document.getElementById('img-popup');
+          const popupImg = imgPopup.querySelector('.popup-img');
+
+          // 1. FILTER: Set the GLOBAL list to only images
+          currentImages = imageAssets.map(asset => asset.src);
+
+          // 2. FIND INDEX: Get the index of the clicked image within the image-only list
+          // This is the CRUCIAL step to start navigation correctly.
+          currentIndex = currentImages.findIndex(src => src === media.src);
+
+          // 3. Initialize Lightbox
           popupImg.src = currentImages[currentIndex];
-          popup.style.display = 'flex';
+          imgPopup.style.display = 'flex';
+
+          return; // Stop execution here for images
         }
-      });
-    });
 
-    const showImage = (index) => {
-      popupImg.src = currentImages[index];
-    }
+        // --- Handle Video/Iframe types (using talentsPopup) ---
+        const talentsPopup = document.getElementById('talentsPopup');
+        const popupContent = talentsPopup.querySelector('.popup-content');
 
-    prevBtn.addEventListener('click', () => {
-      currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
-      showImage(currentIndex);
-    });
+        popupContent.innerHTML = ""; // Clear previous content
 
-    nextBtn.addEventListener('click', () => {
-      currentIndex = (currentIndex + 1) % currentImages.length;
-      showImage(currentIndex);
-    });
-
-    closeBtn.addEventListener('click', () => {
-      popup.style.display = 'none';
-      currentImages = [];
-      currentIndex = 0;
-    });
-
-  </script>
-
-  <script>
-    const imgs = document.querySelectorAll('.leader-img');
-    const leaderPopup = document.getElementById('leaderPopup');
-    const leaderPopupImg = leaderPopup.querySelector('img');
-
-    imgs.forEach(img => {
-      img.addEventListener('click', () => {
-        leaderPopup.style.display = 'flex';
-        leaderPopupImg.src = img.src;
-      });
-    });
-
-    leaderPopup.addEventListener('click', () => {
-      leaderPopup.style.display = 'none';
-    });
-
-  </script>
-
-  <script>
-    const tabButtons = document.querySelectorAll('.tab-btn');
-    const tabContents = document.querySelectorAll('.tab-content');
-
-    tabButtons.forEach(btn => {
-      // 👉 nếu là nút Portfolio thì bỏ qua, không xử lý như tab
-      if (btn.classList.contains('portfolio-btn')) return;
-
-      btn.addEventListener('click', () => {
-        const target = btn.dataset.tab;
-
-        tabButtons.forEach(b => b.classList.remove('active'));
-        tabContents.forEach(c => c.classList.remove('active'));
-
-        btn.classList.add('active');
-        const content = document.getElementById(target);
-        if (content) content.classList.add('active');
-      });
-    });
-  </script>
-
-  <script>
-    const socialImgs = document.querySelectorAll('.social-slider img');
-    const socialPopup = document.getElementById('socialPopup');
-    const socialPopupImg = socialPopup.querySelector('img');
-    const socialClose = socialPopup.querySelector('.close');
-
-    socialImgs.forEach(img => {
-      img.addEventListener('click', () => {
-        socialPopup.style.display = 'flex';
-        socialPopupImg.src = img.src;
-      });
-    });
-
-    socialPopup.addEventListener('click', (e) => {
-      if (e.target === socialPopup || e.target === socialClose) {
-        socialPopup.style.display = 'none';
-      }
-    });
-  </script>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const mediaItems = document.querySelectorAll('.media-grid img, .media-grid video');
-      const talentsPopup = document.getElementById('talentsPopup');
-      const popupContent = talentsPopup.querySelector('.popup-content');
-      const talentsClose = talentsPopup.querySelector('.close');
-
-      mediaItems.forEach(item => {
-        item.addEventListener('click', () => {
-          talentsPopup.style.display = 'flex';
-          popupContent.innerHTML = ""; // reset
-
-          if (item.tagName.toLowerCase() === 'img') {
-            const clone = document.createElement('img');
-            clone.src = item.src;
-            popupContent.appendChild(clone);
-          } else if (item.tagName.toLowerCase() === 'video') {
-            const clone = document.createElement('video');
-            clone.src = item.querySelector('source').src;
-            clone.controls = true;
-            clone.autoplay = true;
-            popupContent.appendChild(clone);
-          }
-        });
-      });
-
-      talentsPopup.addEventListener('click', (e) => {
-        if (e.target === talentsPopup || e.target === talentsClose) {
-          talentsPopup.style.display = 'none';
-          popupContent.innerHTML = "";
+        if (media.type === 'iframe') {
+          const iframe = document.createElement('iframe');
+          iframe.src = media.src;
+          iframe.width = '100%';
+          iframe.height = '100%';
+          iframe.allow = 'autoplay; fullscreen';
+          iframe.allowFullscreen = true;
+          iframe.frameborder = '0';
+          // Removed inline styles (maxWidth/maxHeight) to rely on CSS for better display
+          popupContent.appendChild(iframe);
+        } else if (media.type === 'video') {
+          const video = document.createElement('video');
+          video.src = media.src;
+          video.controls = true;
+          video.autoplay = true;
+          popupContent.appendChild(video);
         }
-      });
-    });
-  </script>
 
-  <script>
-    const sliders = document.querySelectorAll(".slider-container");
-
-    sliders.forEach(container => {
-      const slider = container.querySelector(".slider");
-      const slides = slider.querySelectorAll("img");
-      const prev = container.querySelector(".prev");
-      const next = container.querySelector(".next");
-
-      let index = 0;
-
-      function showSlide(i) {
-        if (i < 0) index = slides.length - 1;
-        else if (i >= slides.length) index = 0;
-        else index = i;
-        slider.style.transform = `translateX(-${index * 100}%)`;
+        talentsPopup.style.display = 'flex';
       }
-
-      prev.addEventListener("click", () => showSlide(index - 1));
-      next.addEventListener("click", () => showSlide(index + 1));
-    });
-    // Hover để xổ ảnh trong Honors & Awards
-    const awardCards = document.querySelectorAll('.award-card');
-
-    awardCards.forEach(card => {
-      const images = JSON.parse(card.getAttribute('data-images'));
-      const container = card.querySelector('.award-images');
-
-      card.addEventListener('mouseenter', () => {
-        if (images && images.length > 0) {
-          container.innerHTML = images.map(src => `<img src="${src}" alt="award">`).join('');
-          container.style.display = 'flex';
-        }
-      });
-
-      card.addEventListener('mouseleave', () => {
-        container.innerHTML = '';
-        container.style.display = 'none';
-      });
-    });
-
-  </script>
-
-  <script>
-    // Product Images Popup
-    const productImages = document.querySelectorAll('.gallery-product-img');
-    const productPopup = document.getElementById('productPopup');
-    const productPopupImg = productPopup ? productPopup.querySelector('.popup-img') : null;
-    const productClose = productPopup ? productPopup.querySelector('.close') : null;
-    const productPrev = productPopup ? productPopup.querySelector('.prev') : null;
-    const productNext = productPopup ? productPopup.querySelector('.next') : null;
-
-    let currentProductImages = [];
-    let currentProductIndex = 0;
-
-    if (productImages.length > 0 && productPopup) {
-      currentProductImages = Array.from(productImages).map(img => img.src);
-
-      productImages.forEach((img, index) => {
-        img.addEventListener('click', () => {
-          currentProductIndex = index;
-          productPopupImg.src = currentProductImages[currentProductIndex];
-          productPopup.style.display = 'flex';
-        });
-      });
-
-      if (productClose) {
-        productClose.addEventListener('click', () => {
-          productPopup.style.display = 'none';
-        });
-      }
-
-      if (productPrev) {
-        productPrev.addEventListener('click', () => {
-          currentProductIndex = (currentProductIndex - 1 + currentProductImages.length) % currentProductImages.length;
-          productPopupImg.src = currentProductImages[currentProductIndex];
-        });
-      }
-
-      if (productNext) {
-        productNext.addEventListener('click', () => {
-          currentProductIndex = (currentProductIndex + 1) % currentProductImages.length;
-          productPopupImg.src = currentProductImages[currentProductIndex];
-        });
-      }
-
-      productPopup.addEventListener('click', (e) => {
-        if (e.target === productPopup) {
-          productPopup.style.display = 'none';
-        }
-      });
-
-      document.addEventListener('keydown', (e) => {
-        if (productPopup.style.display === 'flex') {
-          if (e.key === 'ArrowLeft' && productPrev) {
-            productPrev.click();
-          } else if (e.key === 'ArrowRight' && productNext) {
-            productNext.click();
-          } else if (e.key === 'Escape' && productClose) {
-            productClose.click();
-          }
-        }
-      });
-    }
-  </script>
-  <script>
-    // Featured Gallery Navigation - FIXED VERSION
-    document.addEventListener('DOMContentLoaded', () => {
-      const track = document.querySelector('.featured-gallery .gallery-track');
-      const items = document.querySelectorAll('.featured-gallery .gallery-item');
-      const prevBtn = document.querySelector('.featured-gallery .prev-gallery');
-      const nextBtn = document.querySelector('.featured-gallery .next-gallery');
-
-      if (!track || !items.length || !prevBtn || !nextBtn) {
-        console.log('Gallery elements not found');
-        return;
-      }
-
-      let currentIndex = 0;
-      const itemsPerView = 4;
-      const totalSlides = items.length;
-
-      function updateGallery() {
-        // Tính toán offset
-        const firstItem = items[0];
-        const itemWidth = firstItem.offsetWidth;
-        const gap = 15;
-        const offset = -(currentIndex * (itemWidth + gap));
-
-        // Di chuyển gallery
-        track.style.transform = `translateX(${offset}px)`;
-
-        // Cập nhật trạng thái nút
-        prevBtn.style.opacity = currentIndex === 0 ? '0.5' : '1';
-        prevBtn.style.cursor = currentIndex === 0 ? 'not-allowed' : 'pointer';
-
-        const maxIndex = Math.max(0, totalSlides - itemsPerView);
-        nextBtn.style.opacity = currentIndex >= maxIndex ? '0.5' : '1';
-        nextBtn.style.cursor = 'pointer';
-
-        console.log('Current index:', currentIndex, 'Max:', maxIndex);
-      }
-
-      // Sự kiện nút Previous
-      prevBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        if (currentIndex > 0) {
-          currentIndex--;
-          updateGallery();
-        }
-      });
-
-      // Sự kiện nút Next
-      nextBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        const maxIndex = Math.max(0, totalSlides - itemsPerView);
-        if (currentIndex < maxIndex) {
-          currentIndex++;
-          updateGallery();
-        }
-      });
-
-      // Click vào ảnh để xem popup
-      items.forEach(img => {
-        img.addEventListener('click', () => {
-          const leaderPopup = document.getElementById('leaderPopup');
-          const leaderPopupImg = leaderPopup?.querySelector('img');
-          if (leaderPopup && leaderPopupImg) {
-            leaderPopup.style.display = 'flex';
-            leaderPopupImg.src = img.src;
-          }
-        });
-      });
-
-      // Cập nhật khi resize
-      let resizeTimer;
-      window.addEventListener('resize', () => {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(() => {
-          updateGallery();
-        }, 250);
-      });
-
-      // Khởi tạo
-      updateGallery();
-    });
-
-
-
-    const ONSTAGE_IMAGES_PER_PAGE = 10; // Changed back to 20 for more content per page
-    let currentPage = 1;
-
-    // Define ALL media assets (Images and the corrected video asset)
-    const ONSTAGE_MEDIA_ASSETS = [
-      { type: 'img', src: 'z7033380487774_cb68e09cf363127d860cc0d6651ed14b.jpg', alt: 'ONSTAGE Photo 1' },
-      { type: 'img', src: 'z7033380496925_b5df2b47715251e6cf9683a1e43ee67d.jpg', alt: 'ONSTAGE Photo 2' },
-      { type: 'img', src: 'z7033380487644_bd5f9e52ef21476d0ca8d1598b1e748e.jpg', alt: 'ONSTAGE Photo 3' },
-      { type: 'img', src: 'z7033380494963_fbce3526fde8006afc20a2813ca6c951.jpg', alt: 'ONSTAGE Photo 4' },
-      { type: 'img', src: 'z7033380491686_96b79b821f9d9c24181f77369a031fc1.jpg', alt: 'ONSTAGE Photo 5' },
-      { type: 'img', src: 'z7033380519551_307f0f5a7e487a4623b2cda6b1d25149.jpg', alt: 'ONSTAGE Photo 6' },
-      { type: 'img', src: 'z7033380514659_8d8fd5ed4d4e8f8363833d2cccbc9e00.jpg', alt: 'ONSTAGE Photo 7' },
-      { type: 'img', src: 'z7033380495280_d60620f92a559668f7f21cb21b0b8208.jpg', alt: 'ONSTAGE Photo 8' },
-      { type: 'img', src: 'z7033380488516_2490c3363379c9947c423c174f8dfc2f.jpg', alt: 'ONSTAGE Photo 9' },
-      { type: 'img', src: 'ont.jpg', alt: 'ONSTAGE Photo 10' },
-      { type: 'img', src: 'ont1.jpg', alt: 'ONSTAGE Photo 11' },
-      { type: 'img', src: 'ont2.jpg', alt: 'ONSTAGE Photo 12' },
-      { type: 'img', src: 'asset/ont3.jpg', alt: 'ONSTAGE Photo 13' },
-      { type: 'img', src: 'asset/ont4.jpg', alt: 'ONSTAGE Photo 14' },
-      { type: 'img', src: 'asset/ont1/ont5.jpg', alt: 'ONSTAGE Photo 15' },
-      { type: 'img', src: 'asset/ont1/ont6.jpg', alt: 'ONSTAGE Photo 16' },
-      { type: 'img', src: 'asset/ont1/ont11.jpg', alt: 'ONSTAGE Photo 21' },
-      { type: 'img', src: 'asset/ont1/ont17.jpg', alt: 'ONSTAGE Photo 27' },
-      { type: 'img', src: 'asset/ont1/ont30.jpg', alt: 'ONSTAGE Photo 40' }
-    ];
-
-    const totalPages = Math.ceil(ONSTAGE_MEDIA_ASSETS.length / ONSTAGE_IMAGES_PER_PAGE);
-
-    // --- Lightbox / Media Player Logic (using the 'talentsPopup') ---
-    // --- Lightbox / Media Player Logic (using the 'talentsPopup') ---
-function openOnstageMedia(media, index) {
-    // Collect all image sources from the main asset list
-    const imageAssets = ONSTAGE_MEDIA_ASSETS.filter(m => m.type === 'img');
-    
-    // --- Determine which popup to open ---
-    if (media.type === 'img') {
-        const imgPopup = document.getElementById('img-popup');
-        const popupImg = imgPopup.querySelector('.popup-img');
-
-        // 1. FILTER: Set the GLOBAL list to only images
-        currentImages = imageAssets.map(asset => asset.src);
-        
-        // 2. FIND INDEX: Get the index of the clicked image within the image-only list
-        // This is the CRUCIAL step to start navigation correctly.
-        currentIndex = currentImages.findIndex(src => src === media.src);
-
-        // 3. Initialize Lightbox
-        popupImg.src = currentImages[currentIndex];
-        imgPopup.style.display = 'flex';
-
-        return; // Stop execution here for images
-    }
-
-    // --- Handle Video/Iframe types (using talentsPopup) ---
-    const talentsPopup = document.getElementById('talentsPopup');
-    const popupContent = talentsPopup.querySelector('.popup-content');
-    
-    popupContent.innerHTML = ""; // Clear previous content
-
-    if (media.type === 'iframe') {
-        const iframe = document.createElement('iframe');
-        iframe.src = media.src;
-        iframe.width = '100%';
-        iframe.height = '100%';
-        iframe.allow = 'autoplay; fullscreen';
-        iframe.allowFullscreen = true;
-        iframe.frameborder = '0';
-        // Removed inline styles (maxWidth/maxHeight) to rely on CSS for better display
-        popupContent.appendChild(iframe);
-    } else if (media.type === 'video') {
-        const video = document.createElement('video');
-        video.src = media.src;
-        video.controls = true;
-        video.autoplay = true;
-        popupContent.appendChild(video);
-    }
-
-    talentsPopup.style.display = 'flex';
-}
 
       // Handle Video/Iframe types
-  
 
 
-    // --- Gallery Renderer (renderOnstageGallery) ---
-    function renderOnstageGallery(page) {
-      const grid = document.getElementById('onstage-gallery-grid');
-      if (!grid) return;
 
-      // Use the CORRECT array: ONSTAGE_MEDIA_ASSETS
-      const startIndex = (page - 1) * ONSTAGE_IMAGES_PER_PAGE;
-      const endIndex = Math.min(startIndex + ONSTAGE_IMAGES_PER_PAGE, ONSTAGE_MEDIA_ASSETS.length);
+      // --- Gallery Renderer (renderOnstageGallery) ---
+      function renderOnstageGallery(page) {
+        const grid = document.getElementById('onstage-gallery-grid');
+        if (!grid) return;
 
-      let innerHTML = '';
-      for (let i = startIndex; i < endIndex; i++) {
-        const media = ONSTAGE_MEDIA_ASSETS[i];
+        // Use the CORRECT array: ONSTAGE_MEDIA_ASSETS
+        const startIndex = (page - 1) * ONSTAGE_IMAGES_PER_PAGE;
+        const endIndex = Math.min(startIndex + ONSTAGE_IMAGES_PER_PAGE, ONSTAGE_MEDIA_ASSETS.length);
 
-        let thumbnailSrc = media.src;
-        let iconHtml = '';
+        let innerHTML = '';
+        for (let i = startIndex; i < endIndex; i++) {
+          const media = ONSTAGE_MEDIA_ASSETS[i];
 
-        if (media.type === 'iframe' || media.type === 'video') {
-          // Use a generic placeholder image for video thumbnails
-          // NOTE: You must have a file named 'asset/video_thumb.jpg'
-          thumbnailSrc = 'asset/video_thumb.jpg';
-          iconHtml = '<div class="play-icon"><i class="fas fa-play"></i></div>';
-        }
+          let thumbnailSrc = media.src;
+          let iconHtml = '';
 
-        // Use the new openOnstageMedia handler, passing the full index 'i'
-        innerHTML += `
+          if (media.type === 'iframe' || media.type === 'video') {
+            // Use a generic placeholder image for video thumbnails
+            // NOTE: You must have a file named 'asset/video_thumb.jpg'
+            thumbnailSrc = 'asset/video_thumb.jpg';
+            iconHtml = '<div class="play-icon"><i class="fas fa-play"></i></div>';
+          }
+
+          // Use the new openOnstageMedia handler, passing the full index 'i'
+          innerHTML += `
                 <div class="gallery-media-item" onclick="openOnstageMedia(ONSTAGE_MEDIA_ASSETS[${i}], ${i})" style="position:relative;">
                     <img src="${thumbnailSrc}" 
                         alt="${media.alt}" 
@@ -1333,49 +1371,47 @@ function openOnstageMedia(media, index) {
                     ${iconHtml}
                 </div>
             `;
+        }
+        grid.innerHTML = innerHTML;
+
+        // Update pagination controls
+        document.getElementById('page-counter').textContent = `Page ${page} / ${totalPages}`;
+        document.getElementById('prev-page-btn').disabled = page === 1;
+        document.getElementById('next-page-btn').disabled = page === totalPages;
+
+        // Visually disable buttons
+        document.getElementById('prev-page-btn').style.opacity = page === 1 ? 0.5 : 1;
+        document.getElementById('next-page-btn').style.opacity = page === totalPages ? 0.5 : 1;
       }
-      grid.innerHTML = innerHTML;
 
-      // Update pagination controls
-      document.getElementById('page-counter').textContent = `Page ${page} / ${totalPages}`;
-      document.getElementById('prev-page-btn').disabled = page === 1;
-      document.getElementById('next-page-btn').disabled = page === totalPages;
+      // --- Page Changer (changePage) ---
+      function changePage(delta) {
+        const newPage = currentPage + delta;
+        if (newPage >= 1 && newPage <= totalPages) {
+          currentPage = newPage;
+          renderOnstageGallery(currentPage);
 
-      // Visually disable buttons
-      document.getElementById('prev-page-btn').style.opacity = page === 1 ? 0.5 : 1;
-      document.getElementById('next-page-btn').style.opacity = page === totalPages ? 0.5 : 1;
-    }
-
-    // --- Page Changer (changePage) ---
-    function changePage(delta) {
-      const newPage = currentPage + delta;
-      if (newPage >= 1 && newPage <= totalPages) {
-        currentPage = newPage;
-        renderOnstageGallery(currentPage);
-
-        // **REMOVE or COMMENT OUT this line if you don't want the page to jump:**
-        // document.getElementById('onstage-gallery-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+          // **REMOVE or COMMENT OUT this line if you don't want the page to jump:**
+          // document.getElementById('onstage-gallery-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
       }
-    }
 
-    // --- DOMContentLoaded Listener ---
-    document.addEventListener('DOMContentLoaded', () => {
-      // Check if the paginated gallery exists before trying to render/attach listeners
-      if (document.getElementById('onstage-gallery-grid')) {
-        renderOnstageGallery(currentPage);
+      // --- DOMContentLoaded Listener ---
+      document.addEventListener('DOMContentLoaded', () => {
+        // Check if the paginated gallery exists before trying to render/attach listeners
+        if (document.getElementById('onstage-gallery-grid')) {
+          renderOnstageGallery(currentPage);
 
-        document.getElementById('prev-page-btn').addEventListener('click', () => changePage(-1));
-        document.getElementById('next-page-btn').addEventListener('click', () => changePage(1));
-      }
-      // ... (Include other DOMContentLoaded logic here if necessary, but keep it clean) ...
-    });
-    // ----------------------------------------------------------------------
-    // --- END CORRECTED ONSTAGE GALLERY LOGIC ---
-
+          document.getElementById('prev-page-btn').addEventListener('click', () => changePage(-1));
+          document.getElementById('next-page-btn').addEventListener('click', () => changePage(1));
+        }
+        // ... (Include other DOMContentLoaded logic here if necessary, but keep it clean) ...
+      });
+      // ----------------------------------------------------------------------
+      // --- END CORRECTED ONSTAGE GALLERY LOGIC ---
 
 
-
-  </script>
-</body>
+    </script>
+  </body>
 
 </html>
