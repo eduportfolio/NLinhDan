@@ -385,7 +385,13 @@
 
           <!-- Card 2: Main Actor -->
           <div class="leadership-card">
-            <img src="asset/director.jpg" alt="Main Actor" class="leader-img">
+            <div class="image-carousel">
+              <img src="asset/director.jpg" alt="On Stage 2024 - Scene 1" class="leader-img active">
+              <img src="z7033380488516_2490c3363379c9947c423c174f8dfc2f.jpg" alt="On Stage 2024 - Scene 2" class="leader-img">
+              <img src="z7033380494963_fbce3526fde8006afc20a2813ca6c951.jpg" alt="On Stage 2024 - Scene 3" class="leader-img">
+              <img src="z7033380514659_8d8fd5ed4d4e8f8363833d2cccbc9e00.jpg" alt="On Stage 2024 - Scene 3" class="leader-img">
+            </div>
+
             <div class="leader-info">
               <h3 class="leader-role">Main Actor - Onstage 2024</h3>
               <p class="leader-desc">
@@ -402,7 +408,10 @@
 
           <!-- Card 3: SOS -->
           <div class="leadership-card">
-            <img src="asset/sos.jpg" alt="Vice Head Organizer" class="leader-img">
+            <div class="image-carousel">
+              <img src="asset/sos.jpg" alt="Vice Head Organizer" class="leader-img active">
+            </div>
+            
             <div class="leader-info">
               <h3 class="leader-role">Vice Head Organizer, SOS Children's Village Charity Project</h3>
               <p class="leader-desc">
@@ -419,7 +428,12 @@
 
           <!-- Card 4: Cheer Leader -->
           <div class="leadership-card">
-            <img src="asset/cheer_2.jpg" alt="Cheer Leader" class="leader-img">
+            <div class="image-carousel">
+              <img src="asset/cheer_2.jpg" alt="On Stage 2024 - Scene 1" class="leader-img active">
+              <img src="asset/cheer.jpg" alt="On Stage 2024 - Scene 1" class="leader-img">
+              <img src="asset/cheer_3.jpg" alt="On Stage 2024 - Scene 1" class="leader-img">
+              <img src="asset/cheer_4.jpg" alt="On Stage 2024 - Scene 1" class="leader-img">
+            </div>
 
             <div class="leader-info">
               <h3 class="leader-role">Cheer Leader, Cheer Ams Club</h3>
@@ -1410,7 +1424,21 @@
       // ----------------------------------------------------------------------
       // --- END CORRECTED ONSTAGE GALLERY LOGIC ---
 
+      document.querySelectorAll('.image-carousel').forEach(carousel => {
+          const images = carousel.querySelectorAll('.leader-img');
+          if (images.length <= 1) return; // Không slide nếu chỉ 1 ảnh
 
+          let current = 0;
+          const total = images.length;
+
+          function next() {
+            images[current].classList.remove('active');
+            current = (current + 1) % total;
+            images[current].classList.add('active');
+          }
+
+          setInterval(next, 4000); // Chuyển mỗi 4 giây
+        });
     </script>
   </body>
 
